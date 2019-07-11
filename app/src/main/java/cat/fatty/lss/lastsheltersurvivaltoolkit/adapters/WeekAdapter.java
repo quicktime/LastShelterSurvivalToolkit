@@ -15,14 +15,14 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.DayModel;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 
-public class DaysAdapter extends RecyclerView.Adapter<DaysAdapter.ViewHolder>{
+public class WeekAdapter extends RecyclerView.Adapter<WeekAdapter.ViewHolder>{
 
   private List<DayModel> days;
   private int rowLayout;
   private Context mContext;
   private ItemClickListener clickListener;
 
-  public DaysAdapter(List<DayModel> days, int rowLayout, Context context) {
+  public WeekAdapter(List<DayModel> days, int rowLayout, Context context) {
     this.days = days;
     this.rowLayout = rowLayout;
     this.mContext = context;
@@ -38,7 +38,7 @@ public class DaysAdapter extends RecyclerView.Adapter<DaysAdapter.ViewHolder>{
   public void onBindViewHolder(ViewHolder viewHolder, int position) {
     final DayModel DayModel = days.get(position);
     viewHolder.DataModelName.setText(DayModel.getName());
-    Log.i("DaysAdapter#onBindViewHolder()", String.valueOf(DayModel.getImageResourceId(mContext)));
+    Log.i("WeekAdapter#onBindViewHolder()", String.valueOf(DayModel.getImageResourceId(mContext)));
     viewHolder.DataModelImage.setImageResource(DayModel.getImageResourceId(mContext));
   }
 

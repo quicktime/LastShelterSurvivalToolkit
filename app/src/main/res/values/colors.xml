@@ -10,4 +10,19 @@
     <color name="text_primary">#D9FFFFFF</color>
     <color name="text_secondary">#D9000000</color>
     <color name="photo_tint">#88101010</color>
+
+    <color name="challenge_difficult">#B64949</color>
+    <color name="challenge_doubleUp">#49B649</color>
+    <color name="challenge_normal">#4949B6</color>
+
+    <color name="dew">#91B3BC</color>
+    <color name="rain">#5B7D87</color>
+    <color name="currant">#45415E</color>
+    <color name="slate">#2B4251</color>
+    <color name="creosote">#2E323C</color>
+
+    <color name="quest_name">#9aa7ba</color>
+    <color name="quest_reward">#64d466</color>
+    <color name="even_quest_bg">#25211e</color>
+    <color name="odd_quest_bg">#151412</color>
 </resources>

@@ -14,7 +14,7 @@ public class DayManager {
   private Context context;
   private static String[] DataModelKeyArray = {""};
   private DayManager mInstance;
-  private List<DayModel> days;
+  private ArrayList<DayModel> days;
 
   public DayManager(Context c) {
     this.context = c;
@@ -26,15 +26,11 @@ public class DayManager {
     return mInstance;
   }
 
-  public List<DayModel> getDays() {
+  public ArrayList<DayModel> getDays() {
     if (days == null) {
       days = new ArrayList<>();
       for (String DataModelKey : DataModelKeyArray) {
 
-        Log.i("DayManager", DataModelKey);
-//        Resources res = context.getResources();
-//        String packageName = context.getPackageName();
-//        int id = res.getIdentifier(DataModelKey, "string", packageName);
         String name = DataModelKey.toLowerCase();
         String imageName = DataModelKey.toLowerCase();
 

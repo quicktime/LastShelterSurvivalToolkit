@@ -26,7 +26,6 @@ public class DayModel {
     return imageName;
   }
 
-
   public String getName() {
     return name;
   }

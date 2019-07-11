@@ -13,6 +13,7 @@ public class DaysDetailActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
+
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_city_view);
 
@@ -23,6 +24,5 @@ public class DaysDetailActivity extends AppCompatActivity {
     tvCityName.setText(getIntent().getStringExtra("city"));
     tvCityDesc = findViewById(R.id.tv_city_desc);
     tvCityDesc.setText(getIntent().getStringExtra("desc"));
-
   }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/challenge_banner">
+        <TextView
+            android:id="@+id/challenge_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textColor="#fff"
+            android:textSize="28sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <GridView
+        android:id="@+id/quests_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"/>
+
+</LinearLayout>

@@ -2,7 +2,6 @@ package cat.fatty.lss.lastsheltersurvivaltoolkit.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,18 +11,18 @@ import android.widget.TextView;
 import java.util.List;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.HourModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.ChallengeModel;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 
-public class HoursAdapter extends RecyclerView.Adapter<HoursAdapter.ViewHolder>{
+public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder>{
 
-  private List<HourModel> hours;
+  private List<ChallengeModel> challengeModels;
   private int rowLayout;
   private Context mContext;
   private ItemClickListener clickListener;
 
-  public HoursAdapter(List<HourModel> hours, int rowLayout, Context context) {
-    this.hours = hours;
+  public DayAdapter(List<ChallengeModel> challengeModels, int rowLayout, Context context) {
+    this.challengeModels = challengeModels;
     this.rowLayout = rowLayout;
     this.mContext = context;
   }
@@ -36,16 +35,14 @@ public class HoursAdapter extends RecyclerView.Adapter<HoursAdapter.ViewHolder>{
 
   @Override
   public void onBindViewHolder(ViewHolder viewHolder, int position) {
-    final HourModel hourModel = hours.get(position);
-    viewHolder.DataModelName.setText(hourModel.getName());
-    Log.i("HoursAdapter#onBindViewHolder()", hourModel.name);
-    Log.i("HoursAdapter#onBindViewHolder()", String.valueOf(hourModel.getImageResourceId(mContext)));
-    viewHolder.DataModelImage.setImageResource(hourModel.getImageResourceId(mContext));
+    final ChallengeModel challengeModel = challengeModels.get(position);
+    viewHolder.DataModelName.setText(challengeModel.getName());
+    viewHolder.DataModelImage.setImageResource(challengeModel.getImageResourceId(mContext));
   }
 
   @Override
   public int getItemCount() {
-    return hours == null ? 0 : hours.size();
+    return challengeModels == null ? 0 : challengeModels.size();
   }
 
   public void setClickListener(ItemClickListener itemClickListener) {
