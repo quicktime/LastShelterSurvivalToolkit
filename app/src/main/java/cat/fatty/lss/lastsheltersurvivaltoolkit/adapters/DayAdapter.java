@@ -35,9 +35,10 @@ public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder>{
 
   @Override
   public void onBindViewHolder(ViewHolder viewHolder, int position) {
-    final ChallengeModel challengeModel = challengeModels.get(position);
-    viewHolder.DataModelName.setText(challengeModel.getName());
-    viewHolder.DataModelImage.setImageResource(challengeModel.getImageResourceId(mContext));
+    final ChallengeModel challenge = challengeModels.get(position);
+    viewHolder.DataModelName.setText(challenge.getName());
+    viewHolder.DataModelName.setTextColor(challenge.getColor());
+    viewHolder.DataModelImage.setImageResource(challenge.getImageResourceId(mContext));
   }
 
   @Override

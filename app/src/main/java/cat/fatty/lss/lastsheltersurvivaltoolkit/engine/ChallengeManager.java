@@ -1,8 +1,6 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class ChallengeManager {
 
@@ -13,6 +11,7 @@ public class ChallengeManager {
   public ChallengeManager(String day) {
     this.day = day;
     setChallenges();
+    setChallengeAttributes();
   }
 
   public ArrayList<ChallengeModel> getChallenges () {
@@ -20,7 +19,16 @@ public class ChallengeManager {
       challenges = new ArrayList<>();
       challenges.addAll(dailyChallenges);
     }
-      return challenges;
+    return challenges;
+  }
+
+  private void setChallengeAttributes() {
+    Clock clock = new Clock();
+    ChallengeModel currentChallenge = dailyChallenges.get(clock.getCurrentHour());
+    for (ChallengeModel challenge : dailyChallenges) {
+      challenge.setColor(0xFFFFFFFF);
+    }
+    currentChallenge.setColor(0xFF00FFFF);
   }
 
   private void setChallenges() {
@@ -87,7 +95,32 @@ public class ChallengeManager {
   }
 
   private void setChallengesThursday() {
+    dailyChallenges = new ArrayList<>();
 
+    dailyChallenges.add(Challenges.THURS_ONE);
+    dailyChallenges.add(Challenges.THURS_TWO);
+    dailyChallenges.add(Challenges.THURS_THREE);
+    dailyChallenges.add(Challenges.THURS_FOUR);
+    dailyChallenges.add(Challenges.THURS_FIVE);
+    dailyChallenges.add(Challenges.THURS_SIX);
+    dailyChallenges.add(Challenges.THURS_SEVEN);
+    dailyChallenges.add(Challenges.THURS_EIGHT);
+    dailyChallenges.add(Challenges.THURS_NINE);
+    dailyChallenges.add(Challenges.THURS_TEN);
+    dailyChallenges.add(Challenges.THURS_ELEVEN);
+    dailyChallenges.add(Challenges.THURS_TWELVE);
+    dailyChallenges.add(Challenges.THURS_THIRTEEN);
+    dailyChallenges.add(Challenges.THURS_FOURTEEN);
+    dailyChallenges.add(Challenges.THURS_FIFTEEN);
+    dailyChallenges.add(Challenges.THURS_SIXTEEN);
+    dailyChallenges.add(Challenges.THURS_SEVENTEEN);
+    dailyChallenges.add(Challenges.THURS_EIGHTEEN);
+    dailyChallenges.add(Challenges.THURS_NINETEEN);
+    dailyChallenges.add(Challenges.THURS_TWENTY);
+    dailyChallenges.add(Challenges.THURS_TWENTYONE);
+    dailyChallenges.add(Challenges.THURS_TWENTYTWO);
+    dailyChallenges.add(Challenges.THURS_TWENTYTHREE);
+    dailyChallenges.add(Challenges.THURS_TWENTYFOUR);
   }
 
   private void setChallengesFriday() {

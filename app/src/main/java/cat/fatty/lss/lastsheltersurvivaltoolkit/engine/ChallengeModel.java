@@ -14,6 +14,7 @@ public class ChallengeModel implements Serializable {
   private boolean doubleUp;
   private ArrayList<QuestModel> quests = new ArrayList<>();
   private int questNum;
+  private int color;
 
   public ChallengeModel(String name, boolean difficult, boolean doubleUp, QuestModel... quests) {
     this.name = name;
@@ -32,6 +33,14 @@ public class ChallengeModel implements Serializable {
     } if (!this.doubleUp && !this.difficult) {
       image = "challenge_normal";
     }
+  }
+
+  public void setColor(int color) {
+    this.color = color;
+  }
+
+  public int getColor() {
+    return this.color;
   }
 
   public int getImageResourceId(Context context)
@@ -68,5 +77,3 @@ public class ChallengeModel implements Serializable {
     return quests.get(questNum);
   }
 }
-
-

@@ -2,7 +2,6 @@ package cat.fatty.lss.lastsheltersurvivaltoolkit.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,7 +37,6 @@ public class WeekAdapter extends RecyclerView.Adapter<WeekAdapter.ViewHolder>{
   public void onBindViewHolder(ViewHolder viewHolder, int position) {
     final DayModel DayModel = days.get(position);
     viewHolder.DataModelName.setText(DayModel.getName());
-    Log.i("WeekAdapter#onBindViewHolder()", String.valueOf(DayModel.getImageResourceId(mContext)));
     viewHolder.DataModelImage.setImageResource(DayModel.getImageResourceId(mContext));
   }
 
