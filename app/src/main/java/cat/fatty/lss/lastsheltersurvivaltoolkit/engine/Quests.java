@@ -11,7 +11,7 @@ public class Quests {
   public static QuestModel train = new QuestModel("Train 1 Unit", 0); // TODO:
   public static QuestModel trainSU = new QuestModel("Use 1 Min Training Speed Up", 400); // TODO:
 
-  public static QuestModel tech = new QuestModel("Increase 1 Technology Power", 4000); // TODO:
+  public static QuestModel tech = new QuestModel("Increase 1 Technology Power", 400); // TODO:
   public static QuestModel techSU = new QuestModel("Use 1 Min Research Speed Up", 400); // TODO:
 
   public static QuestModel anySU = new QuestModel("Use 1 Min of any Speed Up", 400); // TODO:
@@ -64,5 +64,16 @@ public class Quests {
   public static QuestModel zombie3Daily = new QuestModel("Kill a Lvl 3 Zombie", 7500);
   public static QuestModel zombie2Daily = new QuestModel("Kill a Lvl 2 Zombie", 3000);
   public static QuestModel zombie1Daily = new QuestModel("Kill a Lvl 1 Zombie", 1500);
+
+  public static QuestModel train10 = new QuestModel("Train a 10 Unit", 215);
+  public static QuestModel train9 = new QuestModel("Train a 9 Unit", 190);
+  public static QuestModel train8 = new QuestModel("Train a 8 Unit", 165);
+  public static QuestModel train7 = new QuestModel("Train a 7 Unit", 140);
+  public static QuestModel train6 = new QuestModel("Train a 6 Unit", 115);
+  public static QuestModel train5 = new QuestModel("Train a 5 Unit", 90);
+  public static QuestModel train4 = new QuestModel("Train a 4 Unit", 65);
+  public static QuestModel train3 = new QuestModel("Train a 3 Unit", 50);
+  public static QuestModel train2 = new QuestModel("Train a 2 Unit", 25);
+  public static QuestModel train1 = new QuestModel("Train a 1 Unit", 5);
 
 }

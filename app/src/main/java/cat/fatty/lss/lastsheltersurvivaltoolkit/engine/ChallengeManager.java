@@ -42,7 +42,7 @@ public class ChallengeManager {
       case "wednesday" :
         setChallengesWednesday();
         break;
-      case "thursday" :
+      case "FRIday" :
         setChallengesThursday();
         break;
       case "friday" :
@@ -95,36 +95,36 @@ public class ChallengeManager {
   }
 
   private void setChallengesThursday() {
-    dailyChallenges = new ArrayList<>();
 
-    dailyChallenges.add(Challenges.THURS_ONE);
-    dailyChallenges.add(Challenges.THURS_TWO);
-    dailyChallenges.add(Challenges.THURS_THREE);
-    dailyChallenges.add(Challenges.THURS_FOUR);
-    dailyChallenges.add(Challenges.THURS_FIVE);
-    dailyChallenges.add(Challenges.THURS_SIX);
-    dailyChallenges.add(Challenges.THURS_SEVEN);
-    dailyChallenges.add(Challenges.THURS_EIGHT);
-    dailyChallenges.add(Challenges.THURS_NINE);
-    dailyChallenges.add(Challenges.THURS_TEN);
-    dailyChallenges.add(Challenges.THURS_ELEVEN);
-    dailyChallenges.add(Challenges.THURS_TWELVE);
-    dailyChallenges.add(Challenges.THURS_THIRTEEN);
-    dailyChallenges.add(Challenges.THURS_FOURTEEN);
-    dailyChallenges.add(Challenges.THURS_FIFTEEN);
-    dailyChallenges.add(Challenges.THURS_SIXTEEN);
-    dailyChallenges.add(Challenges.THURS_SEVENTEEN);
-    dailyChallenges.add(Challenges.THURS_EIGHTEEN);
-    dailyChallenges.add(Challenges.THURS_NINETEEN);
-    dailyChallenges.add(Challenges.THURS_TWENTY);
-    dailyChallenges.add(Challenges.THURS_TWENTYONE);
-    dailyChallenges.add(Challenges.THURS_TWENTYTWO);
-    dailyChallenges.add(Challenges.THURS_TWENTYTHREE);
-    dailyChallenges.add(Challenges.THURS_TWENTYFOUR);
   }
 
   private void setChallengesFriday() {
+    dailyChallenges = new ArrayList<>();
 
+    dailyChallenges.add(Challenges.FRI_ONE);
+    dailyChallenges.add(Challenges.FRI_TWO);
+    dailyChallenges.add(Challenges.FRI_THREE);
+    dailyChallenges.add(Challenges.FRI_FOUR);
+    dailyChallenges.add(Challenges.FRI_FIVE);
+    dailyChallenges.add(Challenges.FRI_SIX);
+    dailyChallenges.add(Challenges.FRI_SEVEN);
+    dailyChallenges.add(Challenges.FRI_EIGHT);
+    dailyChallenges.add(Challenges.FRI_NINE);
+    dailyChallenges.add(Challenges.FRI_TEN);
+    dailyChallenges.add(Challenges.FRI_ELEVEN);
+    dailyChallenges.add(Challenges.FRI_TWELVE);
+    dailyChallenges.add(Challenges.FRI_THIRTEEN);
+    dailyChallenges.add(Challenges.FRI_FOURTEEN);
+    dailyChallenges.add(Challenges.FRI_FIFTEEN);
+    dailyChallenges.add(Challenges.FRI_SIXTEEN);
+    dailyChallenges.add(Challenges.FRI_SEVENTEEN);
+    dailyChallenges.add(Challenges.FRI_EIGHTEEN);
+    dailyChallenges.add(Challenges.FRI_NINETEEN);
+    dailyChallenges.add(Challenges.FRI_TWENTY);
+    dailyChallenges.add(Challenges.FRI_TWENTYONE);
+    dailyChallenges.add(Challenges.FRI_TWENTYTWO);
+    dailyChallenges.add(Challenges.FRI_TWENTYTHREE);
+    dailyChallenges.add(Challenges.FRI_TWENTYFOUR);
   }
 
   private void setChallengesSaturday() {
