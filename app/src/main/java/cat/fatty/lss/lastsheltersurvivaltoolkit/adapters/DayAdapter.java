@@ -56,8 +56,8 @@ public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder>{
 
     public ViewHolder(View itemView) {
       super(itemView);
-      DataModelName = itemView.findViewById(R.id.city_name);
-      DataModelImage = itemView.findViewById(R.id.city_image);
+      DataModelName = itemView.findViewById(R.id.hour_name);
+      DataModelImage = itemView.findViewById(R.id.hour_image);
       itemView.setTag(itemView);
       itemView.setOnClickListener(this);
     }

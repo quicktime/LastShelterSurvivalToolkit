@@ -6,6 +6,7 @@ public class DayModel {
 
   public String name;
   public String imageName;
+  private int color;
 
   public DayModel(String text, String image) {
     this.name = text;
@@ -22,19 +23,19 @@ public class DayModel {
     }
   }
 
-  public String getImageName() {
-    return imageName;
-  }
-
   public String getName() {
     return name;
   }
 
-  public void setImageName(String imageName) {
-    this.imageName = imageName;
-  }
-
   public void setName(String name) {
     this.name = name;
+  }
+
+  public void setColor(int color) {
+    this.color = color;
+  }
+
+  public int getColor() {
+    return this.color;
   }
 }

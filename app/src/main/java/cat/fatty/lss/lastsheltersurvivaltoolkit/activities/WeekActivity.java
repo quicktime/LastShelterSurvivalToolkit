@@ -10,7 +10,6 @@ import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.WeekAdapter;
@@ -35,7 +34,7 @@ public class WeekActivity extends AppCompatActivity implements ItemClickListener
     mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
-    mAdapter = new WeekAdapter(days, R.layout.row_city, this);
+    mAdapter = new WeekAdapter(days, R.layout.row_days, this);
     mRecyclerView.setAdapter(mAdapter);
     mAdapter.setClickListener(this);
   }

@@ -1,11 +1,8 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
 
 import android.content.Context;
-import android.content.res.Resources;
-import android.util.Log;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 
@@ -19,11 +16,21 @@ public class DayManager {
   public DayManager(Context c) {
     this.context = c;
     DataModelKeyArray = c.getResources().getStringArray(R.array.day_keys);
+    setDayAttributes();
   }
 
   public DayManager getInstance(Context c) {
     if (mInstance == null) {mInstance = new DayManager(c);}
     return mInstance;
+  }
+
+  private void setDayAttributes() {
+    Clock clock = new Clock();
+    DayModel currentDay = getDays().get(clock.getCurrentDay());
+    for (DayModel day : getDays()) {
+      day.setColor(0xFFFFFFFF);
+    }
+    currentDay.setColor(0xFF00FFFF);
   }
 
   public ArrayList<DayModel> getDays() {

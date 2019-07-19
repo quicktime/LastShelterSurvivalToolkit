@@ -25,4 +25,5 @@
     <color name="quest_reward">#64d466</color>
     <color name="even_quest_bg">#25211e</color>
     <color name="odd_quest_bg">#151412</color>
+    <color name="quest_bg">#1f1f1f</color>
 </resources>

@@ -35,9 +35,10 @@ public class WeekAdapter extends RecyclerView.Adapter<WeekAdapter.ViewHolder>{
 
   @Override
   public void onBindViewHolder(ViewHolder viewHolder, int position) {
-    final DayModel DayModel = days.get(position);
-    viewHolder.DataModelName.setText(DayModel.getName());
-    viewHolder.DataModelImage.setImageResource(DayModel.getImageResourceId(mContext));
+    final DayModel day = days.get(position);
+    viewHolder.DataModelName.setText(day.getName());
+    viewHolder.DataModelName.setTextColor(day.getColor());
+    viewHolder.DataModelImage.setImageResource(day.getImageResourceId(mContext));
   }
 
   @Override
@@ -55,8 +56,8 @@ public class WeekAdapter extends RecyclerView.Adapter<WeekAdapter.ViewHolder>{
 
     public ViewHolder(View itemView) {
       super(itemView);
-      DataModelName = itemView.findViewById(R.id.city_name);
-      DataModelImage = itemView.findViewById(R.id.city_image);
+      DataModelName = itemView.findViewById(R.id.day_name);
+      DataModelImage = itemView.findViewById(R.id.day_image);
       itemView.setTag(itemView);
       itemView.setOnClickListener(this);
     }
