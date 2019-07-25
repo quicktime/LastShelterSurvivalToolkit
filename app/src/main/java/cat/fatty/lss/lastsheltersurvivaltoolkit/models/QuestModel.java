@@ -1,4 +1,4 @@
-package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
+package cat.fatty.lss.lastsheltersurvivaltoolkit.models;
 
 import java.io.Serializable;
 

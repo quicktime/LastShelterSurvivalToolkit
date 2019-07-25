@@ -1,7 +1,6 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.adapters;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.QuestModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
 
 // TODO: This class needs to be completely reworked. App crashes here.
 

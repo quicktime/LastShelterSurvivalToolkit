@@ -1,6 +1,10 @@
-package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
+package cat.fatty.lss.lastsheltersurvivaltoolkit.managers;
 
 import java.util.ArrayList;
+
+import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.Challenges;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.Clock;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
 
 public class ChallengeManager {
 

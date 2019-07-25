@@ -1,10 +1,12 @@
-package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
+package cat.fatty.lss.lastsheltersurvivaltoolkit.managers;
 
 import android.content.Context;
 
 import java.util.ArrayList;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.Clock;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.DayModel;
 
 public class DayManager {
 

@@ -7,9 +7,10 @@ import java.util.TimeZone;
 public class Clock {
 
   public int getCurrentHour() {
-    Calendar calendar = Calendar.getInstance();
+    Calendar calendar = new GregorianCalendar();
+    calendar.setTimeZone(TimeZone.getTimeZone("Atlantic/South_Georgia"));
 
-    int hour = calendar.get(Calendar.HOUR_OF_DAY) + 5; // this is to make hour consistent with game time
+    int hour = calendar.get(Calendar.HOUR_OF_DAY); // this is to make hour consistent with game time
     if (hour > 23) {
       hour -= 24;
     }

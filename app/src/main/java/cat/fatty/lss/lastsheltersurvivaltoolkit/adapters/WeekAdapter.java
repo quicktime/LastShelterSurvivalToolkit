@@ -11,8 +11,8 @@ import android.widget.TextView;
 import java.util.List;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.DayModel;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.DayModel;
 
 public class WeekAdapter extends RecyclerView.Adapter<WeekAdapter.ViewHolder>{
 

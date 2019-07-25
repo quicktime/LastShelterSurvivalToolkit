@@ -1,6 +1,9 @@
-package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
+package cat.fatty.lss.lastsheltersurvivaltoolkit.managers;
 
 import java.util.ArrayList;
+
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
 
 public class QuestManager {
 

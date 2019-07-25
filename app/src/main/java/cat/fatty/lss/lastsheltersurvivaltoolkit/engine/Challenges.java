@@ -1,5 +1,7 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
 
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
+
 public class Challenges {
   
   public static ChallengeModel BUILD_BUILDSU_VIP = new ChallengeModel("Build / Build SU / VIP", true, false, Quests.build, Quests.buildSU, Quests.vip);

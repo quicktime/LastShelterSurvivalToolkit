@@ -1,5 +1,7 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
 
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
+
 public class Quests {
 
   public static QuestModel buyDiamond = new QuestModel("Buy 1 Diamond", 100);
@@ -14,7 +16,7 @@ public class Quests {
   public static QuestModel tech = new QuestModel("Increase 1 Technology Power", 400); // TODO:
   public static QuestModel techSU = new QuestModel("Use 1 Min Research Speed Up", 400); // TODO:
 
-  public static QuestModel anySU = new QuestModel("Use 1 Min of any Speed Up", 400); // TODO:
+  public static QuestModel anySU = new QuestModel("Every 1 min of any speed-up items used", 400);
 
   public static QuestModel craftGoldenPart = new QuestModel("Craft 1 Golden Part", 500000);
   public static QuestModel craftOrangePart = new QuestModel("Craft 1 Orange Part", 120000);
@@ -75,5 +77,4 @@ public class Quests {
   public static QuestModel train3 = new QuestModel("Train a 3 Unit", 50);
   public static QuestModel train2 = new QuestModel("Train a 2 Unit", 25);
   public static QuestModel train1 = new QuestModel("Train a 1 Unit", 5);
-
 }

@@ -31,6 +31,13 @@
             android:name=".activities.AlarmActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
+        <receiver android:name=".engine.AlarmReceiver" />
+
+        <service android:name=".engine.AlarmToneService"
+            android:enabled="true">
+        </service>
+
     </application>
 
 </manifest>

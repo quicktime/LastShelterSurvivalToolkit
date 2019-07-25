@@ -11,9 +11,9 @@ import java.util.ArrayList;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.ChallengeAdapter;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.ChallengeModel;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.QuestManager;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.QuestModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.QuestManager;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
 
 public class ChallengeActivity extends AppCompatActivity {
 
@@ -32,6 +32,7 @@ public class ChallengeActivity extends AppCompatActivity {
 
     mGridView = findViewById(R.id.quests_grid);
 
+    // Alarm Clock FAB
     mFab = findViewById(R.id.alarm_fab);
     mFab.setOnClickListener(new View.OnClickListener() {
       @Override
