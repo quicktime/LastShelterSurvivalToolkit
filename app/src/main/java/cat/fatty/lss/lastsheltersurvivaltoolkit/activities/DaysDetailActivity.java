@@ -1,9 +1,10 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.activities;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-import android.support.v7.widget.Toolbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 

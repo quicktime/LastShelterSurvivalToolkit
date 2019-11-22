@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -13,7 +13,6 @@
         card_view:cardElevation="10dp"
         card_view:cardMaxElevation="10dp"
         card_view:contentPadding="10dp">
-
 
         <RelativeLayout
             android:id="@+id/relativeLayout"
@@ -30,7 +29,6 @@
                 android:tint="@android:color/white"
                 android:padding="5dp" />
 
-
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
@@ -42,6 +40,6 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

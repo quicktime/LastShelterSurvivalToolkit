@@ -1,12 +1,13 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
 
-public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder>{
+public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder> {
 
   private List<ChallengeModel> challengeModels;
   private int rowLayout;

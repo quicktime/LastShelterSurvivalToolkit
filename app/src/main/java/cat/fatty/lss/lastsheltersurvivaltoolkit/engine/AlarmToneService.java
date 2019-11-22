@@ -10,8 +10,7 @@ import android.widget.Toast;
 
 public class AlarmToneService extends Service {
 
-  private MediaPlayer thePlayer;
-  private boolean isOn;
+
   private boolean isSet;
 
   @Override
@@ -21,18 +20,26 @@ public class AlarmToneService extends Service {
 
   @Override
   public int onStartCommand(Intent intent, int flags, int startID) {
-    Toast.makeText(this, "t", Toast.LENGTH_SHORT).show();
+    MediaPlayer thePlayer = MediaPlayer.create(getApplicationContext(), RingtoneManager.getActualDefaultRingtoneUri(this, RingtoneManager.TYPE_ALARM));
 
-    String state = intent.getExtras().getString("extra");
+    Toast.makeText(this, "t", Toast.LENGTH_SHORT).show(); //TODO: remove debug toast
 
+    String state = "no";
     isSet = false;
-    if (state.equalsIgnoreCase("yes")) {
-      isSet = true;
+
+    if (intent.getExtras() != null) {
+      state = intent.getExtras().getString("state");
+    }
+
+    if (state != null) {
+      if (state.toLowerCase().equalsIgnoreCase("yes")) {
+        isSet = true;
+      }
     }
 
     if (isSet) {
-      thePlayer = MediaPlayer.create(getApplicationContext(), RingtoneManager.getActualDefaultRingtoneUri(this, RingtoneManager.TYPE_ALARM));
       thePlayer.start();
+      Toast.makeText(this, "thePlayer should have started", Toast.LENGTH_LONG).show(); //TODO: remove debug toast
     } else {
       if (thePlayer != null) {
         if (thePlayer.isPlaying()) {
@@ -47,10 +54,9 @@ public class AlarmToneService extends Service {
 
   @Override
   public void onDestroy() {
-    Log.e("JSLog", "on destroy called");
+    Log.e("AlarmToneService", "onDestroy() called");
     super.onDestroy();
 
-    this.isOn = false;
     this.isSet = false;
   }
 }

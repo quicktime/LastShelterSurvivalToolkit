@@ -1,10 +1,11 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.view;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 

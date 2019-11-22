@@ -8,7 +8,7 @@ public class Clock {
 
   public int getCurrentHour() {
     Calendar calendar = new GregorianCalendar();
-    calendar.setTimeZone(TimeZone.getTimeZone("Atlantic/South_Georgia"));
+    calendar.setTimeZone(TimeZone.getTimeZone("Atlantic/South_Georgia")); // game time zone
 
     int hour = calendar.get(Calendar.HOUR_OF_DAY); // this is to make hour consistent with game time
     if (hour > 23) {
