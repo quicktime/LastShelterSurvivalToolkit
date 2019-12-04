@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -26,6 +27,7 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeAdapte
     this.rowLayout = rowLayout;
   }
 
+  @NonNull
   @Override
   public BuildingTypeAdapter.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int position) {
     View v = LayoutInflater.from(viewGroup.getContext()).inflate(rowLayout, viewGroup, false);
@@ -33,7 +35,7 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeAdapte
   }
 
   @Override
-  public void onBindViewHolder(BuildingTypeAdapter.ViewHolder viewHolder, int position) {
+  public void onBindViewHolder(@NonNull BuildingTypeAdapter.ViewHolder viewHolder, int position) {
     final String buildingType = buildingTypes.get(position);
 
     int drawable;
@@ -43,13 +45,13 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeAdapte
         drawable = R.drawable.base;
         break;
       case "vehicle-factory" :
-        drawable = R.drawable.VF;
+        drawable = R.drawable.vf;
         break;
       case "shooting-range" :
-        drawable = R.drawable.SR;
+        drawable = R.drawable.sr;
         break;
       case "fighter-camp" :
-        drawable = R.drawable.FC;
+        drawable = R.drawable.fc;
         break;
       default : // If it gets here, something wrong happened.
         drawable = 0;
