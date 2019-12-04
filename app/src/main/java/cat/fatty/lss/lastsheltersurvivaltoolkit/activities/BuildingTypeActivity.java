@@ -15,12 +15,11 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.BuildingTypeAdapter;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.BuildingTypeManager;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingTypeModel;
 
 public class BuildingTypeActivity extends AppCompatActivity implements ItemClickListener {
 
-  private RecyclerView mRecyclerView;
-  private BuildingTypeAdapter mAdapter;
-  private List<String> buildingTypes;
+  private List<BuildingTypeModel> buildingTypes;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -29,20 +28,20 @@ public class BuildingTypeActivity extends AppCompatActivity implements ItemClick
     setContentView(R.layout.activity_city);
     buildingTypes = new BuildingTypeManager().getBuildingTypes();
 
-    mRecyclerView = findViewById(R.id.list);
+    RecyclerView mRecyclerView = findViewById(R.id.list);
     mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
-    mAdapter = new BuildingTypeAdapter(buildingTypes, R.layout.row_building_types, this); // TODO: Create a new layout
+    BuildingTypeAdapter mAdapter = new BuildingTypeAdapter(buildingTypes, R.layout.row_building_types, this);
     mRecyclerView.setAdapter(mAdapter);
     mAdapter.setClickListener(this);
   }
 
   @Override
   public void onClick(View view, int position) {
-    final String type = buildingTypes.get(position);
+    final BuildingTypeModel type = buildingTypes.get(position);
     Intent intent = new Intent(this, BuildingActivity.class);
-    intent.putExtra("type", type);
+    intent.putExtra("type", type.getType());
     startActivity(intent);
   }
 }

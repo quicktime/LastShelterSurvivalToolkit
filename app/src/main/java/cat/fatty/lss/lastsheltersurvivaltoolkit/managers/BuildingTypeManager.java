@@ -2,22 +2,22 @@ package cat.fatty.lss.lastsheltersurvivaltoolkit.managers;
 
 import java.util.ArrayList;
 
+import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.BuildingTypes;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingTypeModel;
+
+/**
+ * Class is semi-useless, just keeping it uniform with flow of other activities. Could consolidate with BuildingTypes if needed
+ */
 public class BuildingTypeManager {
 
-  public ArrayList<String> getBuildingTypes () {
-    ArrayList<String> buildingTypes = new ArrayList<>();
+  public ArrayList<BuildingTypeModel> getBuildingTypes () {
+    ArrayList<BuildingTypeModel> buildingTypes = new ArrayList<>();
 
-    buildingTypes.add("base");
-    buildingTypes.add("vehicle-factory");
-    buildingTypes.add("shooting-range");
-    buildingTypes.add("fighter-camp");
-/*    buildingTypes.add("trap-house");
-    buildingTypes.add("garrison");
-    buildingTypes.add("ration-truck");
-    buildingTypes.add("iron-warehouse");*/
+    buildingTypes.add(BuildingTypes.base);
+    buildingTypes.add(BuildingTypes.vehicleFactory);
+    buildingTypes.add(BuildingTypes.shootingRange);
+    buildingTypes.add(BuildingTypes.fighterCamp);
 
     return buildingTypes;
   }
-
-
 }

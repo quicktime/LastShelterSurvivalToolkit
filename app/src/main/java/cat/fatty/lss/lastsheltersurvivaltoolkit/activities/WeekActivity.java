@@ -19,12 +19,12 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.models.DayModel;
 
 public class WeekActivity extends AppCompatActivity implements ItemClickListener {
 
-  private RecyclerView mRecyclerView;
-  private WeekAdapter mAdapter;
   private ArrayList<DayModel> days;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
+    RecyclerView mRecyclerView;
+    WeekAdapter mAdapter;
 
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_city);

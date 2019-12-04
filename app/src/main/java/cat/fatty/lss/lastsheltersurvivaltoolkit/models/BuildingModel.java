@@ -1,15 +1,13 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.models;
 
-import androidx.annotation.NonNull;
-
 public class BuildingModel {
 
-  private String type;
-  private String name;
-  private String req1;
-  private String req2;
-  private String req3;
-  private String req4;
+  private String string;
+  private BuildingTypeModel type;
+  private BuildingModel req1;
+  private BuildingModel req2;
+  private BuildingModel req3;
+  private BuildingModel req4;
   private int lvl;
   private int food;
   private int water;
@@ -20,8 +18,12 @@ public class BuildingModel {
   private int chips;
   private int money;
 
-  public BuildingModel (String name, int lvl, String req1, String req2, String req3, String req4, int food, int water, int fuel, int lumber, int iron, int electricity, int chips, int money) {
-    this.name = name;
+  public BuildingModel (BuildingTypeModel type, int lvl, BuildingModel req1, BuildingModel req2, BuildingModel req3, BuildingModel req4, int food, int water, int fuel, int lumber, int iron, int electricity, int chips, int money) {
+    this.req1 = req1;
+    this.req2 = req2;
+    this.req3 = req3;
+    this.req4 = req4;
+    this.type = type;
     this.lvl = lvl;
     this.food = food;
     this.water = water;
@@ -33,28 +35,32 @@ public class BuildingModel {
     this.money = money;
   }
 
-  // Does not show blank items
-  // TODO: In the activity, only display items that are not null or 0
-  private void setBuildingItems(@NonNull BuildingModel building) {
-    if (building.req1.equalsIgnoreCase("")) {
-      building.req1 = null;
-    }
-    if (building.req2.equalsIgnoreCase("")) {
-      building.req2 = null;
-    }
-    if (building.req3.equalsIgnoreCase("")) {
-      building.req3 = null;
-    }
-    if (building.req4.equalsIgnoreCase("")) {
-      building.req4 = null;
-    }
+  public BuildingModel (String string)
+  {
+    this.string = string;
   }
 
-  public String getType() {
+  public BuildingTypeModel getType() {
     return type;
   }
 
-  public void setType(String type) {
+  public BuildingModel getReq1() {
+    return req1;
+  }
+
+  public BuildingModel getReq2() {
+    return req2;
+  }
+
+  public BuildingModel getReq3() {
+    return req3;
+  }
+
+  public BuildingModel getReq4() {
+    return req4;
+  }
+
+  public void setType(BuildingTypeModel type) {
     this.type = type;
   }
 
@@ -94,10 +100,6 @@ public class BuildingModel {
     return water;
   }
 
-  public String getName() {
-    return name;
-  }
-
   public void setFood(int food) {
     this.food = food;
   }
@@ -124,10 +126,6 @@ public class BuildingModel {
 
   public void setLvl(int lvl) {
     this.lvl = lvl;
-  }
-
-  public void setName(String name) {
-    this.name = name;
   }
 
   public void setMoney(int money) {

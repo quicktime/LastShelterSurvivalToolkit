@@ -5,8 +5,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,42 +13,44 @@ import java.util.List;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingTypeModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.view.BuildingTypeViewHolder;
 
-public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeAdapter.ViewHolder> {
+public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeViewHolder> {
 
-  private List<String> buildingTypes;
+  private List<BuildingTypeModel> buildingTypes;
   private int rowLayout;
-  private ItemClickListener clickListener;
+  public static ItemClickListener clickListener;
 
-  public BuildingTypeAdapter(List<String> buildingTypes, int rowLayout, Context context) {
+  public BuildingTypeAdapter(List<BuildingTypeModel> buildingTypes, int rowLayout, Context context) {
     this.buildingTypes = buildingTypes;
     this.rowLayout = rowLayout;
   }
 
   @NonNull
   @Override
-  public BuildingTypeAdapter.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int position) {
+  public BuildingTypeViewHolder onCreateViewHolder(ViewGroup viewGroup, int position) {
     View v = LayoutInflater.from(viewGroup.getContext()).inflate(rowLayout, viewGroup, false);
-    return new BuildingTypeAdapter.ViewHolder(v);
+    return new BuildingTypeViewHolder(v);
   }
 
   @Override
-  public void onBindViewHolder(@NonNull BuildingTypeAdapter.ViewHolder viewHolder, int position) {
-    final String buildingType = buildingTypes.get(position);
+  public void onBindViewHolder(@NonNull BuildingTypeViewHolder viewHolder, int position) {
+    final BuildingTypeModel buildingType = buildingTypes.get(position);
 
     int drawable;
 
-    switch (buildingType.toLowerCase()) {
+    switch (buildingType.getType().toLowerCase()) {
       case "base" :
         drawable = R.drawable.base;
         break;
-      case "vehicle-factory" :
+      case "vehicle factory" :
         drawable = R.drawable.vf;
         break;
-      case "shooting-range" :
+      case "shooting range" :
         drawable = R.drawable.sr;
         break;
-      case "fighter-camp" :
+      case "fighter camp" :
         drawable = R.drawable.fc;
         break;
       default : // If it gets here, something wrong happened.
@@ -58,8 +58,8 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeAdapte
         Log.e("buildingType switch", "Got to default case!");
     }
 
-    viewHolder.DataModelName.setText(buildingType);
-    viewHolder.DataModelImage.setImageResource(drawable);
+    viewHolder.getDataModelName().setText(buildingType.getType());
+    viewHolder.getDataModelImage().setImageResource(drawable);
   }
 
   @Override
@@ -68,24 +68,8 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeAdapte
   }
 
   public void setClickListener(ItemClickListener itemClickListener) {
-    this.clickListener = itemClickListener;
+    clickListener = itemClickListener;
   }
 
-  public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-    private TextView DataModelName;
-    private ImageView DataModelImage;
 
-    private ViewHolder(View itemView) {
-      super(itemView);
-      DataModelName = itemView.findViewById(R.id.hour_name); // TODO: Create new view for building type name
-      DataModelImage = itemView.findViewById(R.id.hour_image); // TODO: Create new view for building type image
-      itemView.setTag(itemView);
-      itemView.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
-      if (clickListener != null) clickListener.onClick(view, getAdapterPosition());
-    }
-  }
 }

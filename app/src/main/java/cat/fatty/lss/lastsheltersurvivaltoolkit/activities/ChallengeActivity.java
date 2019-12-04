@@ -19,23 +19,18 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
 
 public class ChallengeActivity extends AppCompatActivity {
 
-  private GridView mGridView;
-  private FloatingActionButton mFab;
-  private ChallengeAdapter mAdapter;
-  private ArrayList<QuestModel> quests;
-
   @Override
   protected void onCreate(Bundle savedInstanceState) {
 
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_challenge);
     ChallengeModel challenge = (ChallengeModel) getIntent().getSerializableExtra("challenge");
-    quests = new QuestManager(challenge).getQuests();
+    ArrayList<QuestModel> quests = new QuestManager(challenge).getQuests();
 
-    mGridView = findViewById(R.id.quests_grid);
+    GridView mGridView = findViewById(R.id.quests_grid);
 
     // Alarm Clock FAB
-    mFab = findViewById(R.id.alarm_fab);
+    FloatingActionButton mFab = findViewById(R.id.alarm_fab);
     mFab.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
@@ -45,7 +40,7 @@ public class ChallengeActivity extends AppCompatActivity {
       }
     });
 
-    mAdapter = new ChallengeAdapter(quests, R.layout.row_quests, this);
+    ChallengeAdapter mAdapter = new ChallengeAdapter(quests, R.layout.row_quests, this);
     mGridView.setAdapter(mAdapter);
   }
 }

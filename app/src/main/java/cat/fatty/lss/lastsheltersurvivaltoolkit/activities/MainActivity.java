@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.ItemL
 
     recyclerView = findViewById(R.id.recyclerView);
     arrayList = new ArrayList<>();
-    arrayList.add(new SelectionModel("Item 1", R.drawable.battle, "#09A9FF", WeekActivity.class));
-    arrayList.add(new SelectionModel("Item 2", R.drawable.beer, "#3E51B1", WeekActivity.class));
+    arrayList.add(new SelectionModel("Challenges", R.drawable.battle, "#09A9FF", WeekActivity.class));
+    arrayList.add(new SelectionModel("Buildings", R.drawable.beer, "#3E51B1", BuildingTypeActivity.class));
     arrayList.add(new SelectionModel("Item 3", R.drawable.ferrari, "#673BB7", WeekActivity.class));
     arrayList.add(new SelectionModel("Item 4", R.drawable.jetpack_joyride, "#4BAA50", WeekActivity.class));
     arrayList.add(new SelectionModel("Item 5", R.drawable.three_d, "#F94336", WeekActivity.class));
