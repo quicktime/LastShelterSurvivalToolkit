@@ -1,6 +1,8 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.models;
 
-public class BuildingModel {
+import java.io.Serializable;
+
+public class BuildingModel implements Serializable {
 
   private String string;
   private BuildingTypeModel type;

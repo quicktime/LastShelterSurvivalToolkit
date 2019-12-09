@@ -41,7 +41,7 @@ public class BuildingTypeActivity extends AppCompatActivity implements ItemClick
   public void onClick(View view, int position) {
     final BuildingTypeModel type = buildingTypes.get(position);
     Intent intent = new Intent(this, BuildingActivity.class);
-    intent.putExtra("type", type.getType());
+    intent.putExtra("type", type);
     startActivity(intent);
   }
 }

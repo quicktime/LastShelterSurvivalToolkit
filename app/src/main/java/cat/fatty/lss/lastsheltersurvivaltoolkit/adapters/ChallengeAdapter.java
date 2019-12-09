@@ -13,8 +13,6 @@ import java.util.Locale;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
 
-// TODO: This class needs to be completely reworked. App crashes here.
-
 public class ChallengeAdapter extends BaseAdapter {
 
   private ArrayList<QuestModel> questModels;

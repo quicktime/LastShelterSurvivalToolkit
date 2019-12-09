@@ -1,4 +1,4 @@
-package cat.fatty.lss.lastsheltersurvivaltoolkit.LayoutManagers;
+package cat.fatty.lss.lastsheltersurvivaltoolkit.layoutManagers;
 
 import android.content.Context;
 
@@ -16,7 +16,7 @@ public class AutoFitGridLayoutManager extends GridLayoutManager {
     setColumnWidth(columnWidth);
   }
 
-  public void setColumnWidth(int newColumnWidth) {
+  private void setColumnWidth(int newColumnWidth) {
     if (newColumnWidth > 0 && newColumnWidth != columnWidth) {
       columnWidth = newColumnWidth;
       columnWidthChanged = true;

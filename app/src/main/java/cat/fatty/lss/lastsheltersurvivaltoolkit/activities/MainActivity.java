@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import cat.fatty.lss.lastsheltersurvivaltoolkit.LayoutManagers.AutoFitGridLayoutManager;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.MainAdapter;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.layoutManagers.AutoFitGridLayoutManager;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.SelectionModel;
 
 public class MainActivity extends AppCompatActivity implements MainAdapter.ItemListener {

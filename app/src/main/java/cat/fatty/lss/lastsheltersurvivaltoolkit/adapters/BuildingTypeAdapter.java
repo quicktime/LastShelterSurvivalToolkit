@@ -55,7 +55,7 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeViewHo
         break;
       default : // If it gets here, something wrong happened.
         drawable = 0;
-        Log.e("buildingType switch", "Got to default case!");
+        Log.e("buildingTypeAdapter switch", "Got to default case!");
     }
 
     viewHolder.getDataModelName().setText(buildingType.getType());

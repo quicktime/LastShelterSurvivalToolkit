@@ -36,8 +36,8 @@ public class MainAdapter extends RecyclerView.Adapter<SelectionViewHolder> {
   }
 
   @Override
-  public void onBindViewHolder(SelectionViewHolder Vholder, int position) {
-    Vholder.setData(mValues.get(position));
+  public void onBindViewHolder(SelectionViewHolder viewHolder, int position) {
+    viewHolder.setData(mValues.get(position));
   }
 
   @Override
