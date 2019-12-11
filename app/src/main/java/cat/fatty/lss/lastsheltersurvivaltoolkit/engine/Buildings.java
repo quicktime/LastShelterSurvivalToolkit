@@ -4,6 +4,7 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingModel;
 
 public class Buildings {
 
+  private static BuildingModel base1;
   public static BuildingModel base2;
   public static BuildingModel base3;
   public static BuildingModel base4;
@@ -283,6 +284,7 @@ public class Buildings {
     vehicleFactory24 = new BuildingModel(BuildingTypes.vehicleFactory, 24, base24, null, null, null, 0, 0, 150000000, 0, 25000000, 2700000, 0, 17000000);
     vehicleFactory25 = new BuildingModel(BuildingTypes.vehicleFactory, 25, base25, null, null, null, 0, 0, 180000000, 0, 30000000, 3100000, 0, 20000000);
 
+    rationTruck1 = new BuildingModel(BuildingTypes.rationTruck, 1, base1, null, null, null, 60, 0, 0, 0, 100, 0, 0, 0);
     rationTruck2 = new BuildingModel(BuildingTypes.rationTruck, 2, base2, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
     rationTruck3 = new BuildingModel(BuildingTypes.rationTruck, 3, base3, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
     rationTruck4 = new BuildingModel(BuildingTypes.rationTruck, 4, base4, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);

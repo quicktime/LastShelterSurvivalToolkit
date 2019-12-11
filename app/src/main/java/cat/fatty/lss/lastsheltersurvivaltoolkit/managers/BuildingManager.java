@@ -11,12 +11,12 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingTypeModel;
 
 public class BuildingManager {
 
-  private BuildingTypeModel building;
+  private BuildingTypeModel buildingType;
   private ArrayList<BuildingModel> selectedBuildings;
   private ArrayList<BuildingModel> buildings;
 
-  public BuildingManager(BuildingTypeModel building) {
-    this.building = building;
+  public BuildingManager(BuildingTypeModel buildingType) {
+    this.buildingType = buildingType;
     Buildings.setBuildings();
     setBuildings();
   }
@@ -30,7 +30,7 @@ public class BuildingManager {
   }
 
   private void setBuildings() {
-    switch (building.getType().toLowerCase()) {
+    switch (buildingType.getType().toLowerCase()) {
       case "base" :
         setBuildingsBase();
         break;
@@ -58,7 +58,6 @@ public class BuildingManager {
       default :
         // Something wrong happened
         Log.e("BuildingManager switch", "got to default case");
-
     }
   }
 

@@ -31,6 +31,9 @@ public class BuildingModel implements Serializable {
   private ResourceModel resourceChips = Resources.chips;
   private ResourceModel resourceMoney = Resources.money;
 
+  private ArrayList<ResourceModel> resources = new ArrayList<>();
+  private ArrayList<ResourceModel> reqResources = new ArrayList<>();
+
   public BuildingModel (BuildingTypeModel type, int lvl, BuildingModel req1, BuildingModel req2, BuildingModel req3, BuildingModel req4, int food, int water, int fuel, int lumber, int iron, int electricity, int chips, int money) {
     this.req1 = req1;
     this.req2 = req2;
@@ -63,11 +66,6 @@ public class BuildingModel implements Serializable {
     resourceElectricity.setQuantRequired(electricity);
     resourceChips.setQuantRequired(chips);
     resourceMoney.setQuantRequired(money);
-  }
-
-  public ArrayList<ResourceModel> getResources()
-  {
-    ArrayList<ResourceModel> resources = new ArrayList<>();
 
     resources.add(resourceFood);
     resources.add(resourceWater);
@@ -78,7 +76,19 @@ public class BuildingModel implements Serializable {
     resources.add(resourceChips);
     resources.add(resourceMoney);
 
-    return resources;
+    setReqResources();
+  }
+
+  public ArrayList<ResourceModel> getReqResources() {
+    return reqResources;
+  }
+
+  private void setReqResources() {
+    for (int i = 0; i < resources.size(); i++) {
+      if (resources.get(i).getQuantRequired() != 0) {
+        reqResources.add(resources.get(i));
+      }
+    }
   }
 
   public BuildingTypeModel getType() {
@@ -106,34 +116,21 @@ public class BuildingModel implements Serializable {
   }
 
   public int getSize() {
+
     int counter = 0;
-    for (int i = 0; i < 8; i++) {
-      if (resourceFood != null) {
-        counter++;
-      }
-      if (resourceWater != null) {
-        counter++;
-      }
-      if (resourceFuel != null) {
-        counter++;
-      }
-      if (resourceLumber != null) {
-        counter++;
-      }
-      if (resourceIron != null) {
-        counter++;
-      }
-      if (resourceElectricity != null) {
-        counter++;
-      }
-      if (resourceChips != null) {
-        counter++;
-      }
-      if (resourceMoney != null) {
-        counter++;
-      }
+    if (req1 != null) {
+      counter++;
     }
-      return counter;
+    if (req2 != null) {
+      counter++;
+    }
+    if (req3 != null) {
+      counter++;
+    }
+    if (req4 != null) {
+      counter++;
+    }
+    return reqResources.size() + counter;
   }
 
   public int getChips() {

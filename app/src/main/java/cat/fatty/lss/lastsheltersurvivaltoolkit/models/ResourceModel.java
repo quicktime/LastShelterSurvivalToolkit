@@ -1,14 +1,14 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.models;
 
-import android.graphics.drawable.Drawable;
+import java.io.Serializable;
 
-public class ResourceModel {
+public class ResourceModel implements Serializable {
 
   private String name;
   private int quantRequired;
-  private Drawable drawable;
+  private int drawable;
 
-  public ResourceModel(String name, int quantRequired, Drawable drawable) {
+  public ResourceModel(String name, int quantRequired, int drawable) {
     this.name = name;
     this.quantRequired = quantRequired;
     this.drawable = drawable;
@@ -22,7 +22,7 @@ public class ResourceModel {
     return quantRequired;
   }
 
-  public Drawable getDrawable() {
+  public int getDrawable() {
     return drawable;
   }
 

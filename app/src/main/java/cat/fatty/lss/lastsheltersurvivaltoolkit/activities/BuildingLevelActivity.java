@@ -14,12 +14,14 @@ public class BuildingLevelActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_city);
+    setContentView(R.layout.activity_building_level);
     BuildingModel building = (BuildingModel) getIntent().getSerializableExtra("building");
 
-    GridView mGridView = findViewById(R.id.quests_grid);
+    building.setResources();
 
-    BuildingLevelAdapter mAdapter = new BuildingLevelAdapter(building, R.layout.row_buildings, this);
+    BuildingLevelAdapter mAdapter = new BuildingLevelAdapter(building, R.layout.row_resources, this);
+
+    GridView mGridView = findViewById(R.id.resources_grid);
     mGridView.setAdapter(mAdapter);
   }
 }

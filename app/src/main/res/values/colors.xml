@@ -26,4 +26,10 @@
     <color name="even_quest_bg">#25211e</color>
     <color name="odd_quest_bg">#151412</color>
     <color name="quest_bg">#1f1f1f</color>
+
+    <color name="resource_name">#9aa7ba</color>
+    <color name="resource_amount">#64d466</color>
+    <color name="even_resource_bg">#25211e</color>
+    <color name="odd_resource_bg">#151412</color>
+    <color name="resource_bg">#1f1f1f</color>
 </resources>

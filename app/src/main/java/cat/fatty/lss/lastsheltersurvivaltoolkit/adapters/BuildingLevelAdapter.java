@@ -45,15 +45,15 @@ public class BuildingLevelAdapter extends BaseAdapter {
 
       view = LayoutInflater.from(viewGroup.getContext()).inflate(mLayout, viewGroup, false);
       if (i % 2 == 0) {
-        view.setBackgroundColor(mContext.getColor(R.color.even_quest_bg));
+        view.setBackgroundColor(mContext.getColor(R.color.even_resource_bg));
       } else {
-        view.setBackgroundColor(mContext.getColor(R.color.odd_quest_bg));
+        view.setBackgroundColor(mContext.getColor(R.color.odd_resource_bg));
       }
-      TextView questName = view.findViewById(R.id.quest_name);
-      TextView questReward = view.findViewById(R.id.quest_reward);
+      TextView resource_name = view.findViewById(R.id.resource_name);
+      TextView resource_amount = view.findViewById(R.id.resource_amount);
 
-      questName.setText(building.getResources().get(i).getName());
-      questReward.setText(String.format(Locale.getDefault(), "+ %d", building.getResources().get(i).getQuantRequired()));
+      resource_name.setText(building.getReqResources().get(i).getName());
+      resource_amount.setText(String.format(Locale.getDefault(), "+ %d", building.getReqResources().get(i).getQuantRequired()));
     }
     return view;
   }
