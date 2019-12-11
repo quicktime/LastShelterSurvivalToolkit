@@ -21,13 +21,15 @@ public class ChallengeActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_challenge);
     ChallengeModel challenge = (ChallengeModel) getIntent().getSerializableExtra("challenge");
     ArrayList<QuestModel> quests = new QuestManager(challenge).getQuests();
 
     GridView mGridView = findViewById(R.id.quests_grid);
+
+    ChallengeAdapter mAdapter = new ChallengeAdapter(quests, R.layout.row_quests, this);
+    mGridView.setAdapter(mAdapter);
 
     // Alarm Clock FAB
     FloatingActionButton mFab = findViewById(R.id.alarm_fab);
@@ -39,8 +41,5 @@ public class ChallengeActivity extends AppCompatActivity {
         startActivity(intent);
       }
     });
-
-    ChallengeAdapter mAdapter = new ChallengeAdapter(quests, R.layout.row_quests, this);
-    mGridView.setAdapter(mAdapter);
   }
 }

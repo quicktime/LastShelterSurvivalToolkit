@@ -51,6 +51,11 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
+        <activity
+            android:name=".activities.BuildingLevelActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
         <receiver android:name=".engine.AlarmReceiver" />
 
         <service android:name=".engine.AlarmToneService"

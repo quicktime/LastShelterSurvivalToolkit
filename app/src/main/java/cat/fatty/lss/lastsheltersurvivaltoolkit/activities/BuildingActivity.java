@@ -24,7 +24,6 @@ public class BuildingActivity extends AppCompatActivity implements ItemClickList
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_city);
     BuildingTypeModel buildingType = (BuildingTypeModel) getIntent().getSerializableExtra("type");

@@ -1,6 +1,9 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.models;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+
+import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.Resources;
 
 public class BuildingModel implements Serializable {
 
@@ -19,6 +22,14 @@ public class BuildingModel implements Serializable {
   private int electricity;
   private int chips;
   private int money;
+  private ResourceModel resourceFood = Resources.food;
+  private ResourceModel resourceWater = Resources.water;
+  private ResourceModel resourceFuel = Resources.fuel;
+  private ResourceModel resourceLumber = Resources.lumber;
+  private ResourceModel resourceIron = Resources.iron;
+  private ResourceModel resourceElectricity = Resources.electricity;
+  private ResourceModel resourceChips = Resources.chips;
+  private ResourceModel resourceMoney = Resources.money;
 
   public BuildingModel (BuildingTypeModel type, int lvl, BuildingModel req1, BuildingModel req2, BuildingModel req3, BuildingModel req4, int food, int water, int fuel, int lumber, int iron, int electricity, int chips, int money) {
     this.req1 = req1;
@@ -37,9 +48,37 @@ public class BuildingModel implements Serializable {
     this.money = money;
   }
 
-  public BuildingModel (String string)
+  public BuildingModel(String string)
   {
     this.string = string;
+  }
+
+  public void setResources()
+  {
+    resourceFood.setQuantRequired(food);
+    resourceWater.setQuantRequired(water);
+    resourceFuel.setQuantRequired(fuel);
+    resourceLumber.setQuantRequired(lumber);
+    resourceIron.setQuantRequired(iron);
+    resourceElectricity.setQuantRequired(electricity);
+    resourceChips.setQuantRequired(chips);
+    resourceMoney.setQuantRequired(money);
+  }
+
+  public ArrayList<ResourceModel> getResources()
+  {
+    ArrayList<ResourceModel> resources = new ArrayList<>();
+
+    resources.add(resourceFood);
+    resources.add(resourceWater);
+    resources.add(resourceFuel);
+    resources.add(resourceLumber);
+    resources.add(resourceIron);
+    resources.add(resourceElectricity);
+    resources.add(resourceChips);
+    resources.add(resourceMoney);
+
+    return resources;
   }
 
   public BuildingTypeModel getType() {
@@ -64,6 +103,37 @@ public class BuildingModel implements Serializable {
 
   public void setType(BuildingTypeModel type) {
     this.type = type;
+  }
+
+  public int getSize() {
+    int counter = 0;
+    for (int i = 0; i < 8; i++) {
+      if (resourceFood != null) {
+        counter++;
+      }
+      if (resourceWater != null) {
+        counter++;
+      }
+      if (resourceFuel != null) {
+        counter++;
+      }
+      if (resourceLumber != null) {
+        counter++;
+      }
+      if (resourceIron != null) {
+        counter++;
+      }
+      if (resourceElectricity != null) {
+        counter++;
+      }
+      if (resourceChips != null) {
+        counter++;
+      }
+      if (resourceMoney != null) {
+        counter++;
+      }
+    }
+      return counter;
   }
 
   public int getChips() {

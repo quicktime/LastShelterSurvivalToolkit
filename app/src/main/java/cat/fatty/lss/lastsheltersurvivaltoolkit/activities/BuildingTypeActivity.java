@@ -23,7 +23,6 @@ public class BuildingTypeActivity extends AppCompatActivity implements ItemClick
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_city);
     buildingTypes = new BuildingTypeManager().getBuildingTypes();

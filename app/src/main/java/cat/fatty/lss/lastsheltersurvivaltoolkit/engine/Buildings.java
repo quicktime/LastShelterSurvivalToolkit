@@ -213,7 +213,7 @@ public class Buildings {
 
   public static BuildingModel shootingRange13;
 
-  public static BuildingModel embassay15;
+  public static BuildingModel embassy15;
   public static BuildingModel embassy24;
 
   public static BuildingModel farm11;
@@ -232,7 +232,6 @@ public class Buildings {
   public static BuildingModel pop210k = new BuildingModel("Population: 210k");
   public static BuildingModel pop350k = new BuildingModel("Population: 350k");
 
-  // TODO: Make the building reqs building objects. Might run into a similar issue that I ran in to for Idle-Heroes project (check how I did that)
   public static void setBuildings() {
     base2 = new BuildingModel(BuildingTypes.base, 2, rationTruck1, null, null, null, 50, 0, 0, 190, 0, 0, 0, 210);
     base3 = new BuildingModel(BuildingTypes.base, 3, null, null, null, null, 100, 0, 200, 290, 0, 0, 0, 320);
@@ -248,7 +247,7 @@ public class Buildings {
     base13 = new BuildingModel(BuildingTypes.base, 13, rationTruck12, lumberMill12, null, null, 260000, 0, 260000, 500000, 400000, 93000, 0, 590000);
     base14 = new BuildingModel(BuildingTypes.base, 14, rationTruck13, shootingRange13, null, null, 410000, 0, 410000, 800000, 600000, 140000, 0, 830000);
     base15 = new BuildingModel(BuildingTypes.base, 15, rationTruck14, bank14, null, null, 730000, 0, 730000, 1000000, 1000000, 200000, 0, 1100000);
-    base16 = new BuildingModel(BuildingTypes.base, 16, rationTruck15, embassay15, null, null, 1300000, 0, 1300000, 2000000, 1500000, 320000, 0, 1600000);
+    base16 = new BuildingModel(BuildingTypes.base, 16, rationTruck15, embassy15, null, null, 1300000, 0, 1300000, 2000000, 1500000, 320000, 0, 1600000);
     base17 = new BuildingModel(BuildingTypes.base, 17, rationTruck16, vehicleFactory16, garrison16, null, 2000000, 0, 2000000, 3000000, 2500000, 500000, 0, 2500000);
     base18 = new BuildingModel(BuildingTypes.base, 18, rationTruck17, farm17, null, null, 4000000, 0, 4000000, 4000000, 5000000, 700000, 0, 4400000);
     base19 = new BuildingModel(BuildingTypes.base, 19, rationTruck18, pop120k, powerPlant18, null, 7000000, 0, 7000000, 10000000, 8000000, 1000000, 0, 7000000);
