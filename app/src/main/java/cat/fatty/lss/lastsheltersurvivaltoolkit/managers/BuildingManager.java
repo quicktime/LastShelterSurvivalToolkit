@@ -16,7 +16,6 @@ public class BuildingManager {
 
   public BuildingManager(BuildingTypeModel buildingType) {
     this.buildingType = buildingType;
-    Buildings.setBuildings();
     setBuildings();
   }
 
@@ -58,6 +57,7 @@ public class BuildingManager {
 
   private void setBuildingsBase()
   {
+    Buildings.setBase();
     selectedBuildings = new ArrayList<>();
 
     selectedBuildings.add(Buildings.base2);
@@ -88,6 +88,7 @@ public class BuildingManager {
 
   private void setBuildingsVehicleFactory()
   {
+    Buildings.setVehicleFactory();
     selectedBuildings = new ArrayList<>();
 
     selectedBuildings.add(Buildings.vehicleFactory2);
@@ -118,6 +119,7 @@ public class BuildingManager {
 
   private void setBuildingsRationTruck()
   {
+    Buildings.setRationTruck();
     selectedBuildings = new ArrayList<>();
 
     selectedBuildings.add(Buildings.rationTruck1);

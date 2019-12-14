@@ -233,7 +233,7 @@ public class Buildings {
   public static BuildingModel pop210k = new BuildingModel("Population: 210k");
   public static BuildingModel pop350k = new BuildingModel("Population: 350k");
 
-  public static void setBuildings() {
+  public static void setBase() {
     base2 = new BuildingModel(BuildingTypes.base, 2, rationTruck1, null, null, null, 50, 0, 0, 190, 0, 0, 0, 210);
     base3 = new BuildingModel(BuildingTypes.base, 3, null, null, null, null, 100, 0, 200, 290, 0, 0, 0, 320);
     base4 = new BuildingModel(BuildingTypes.base, 4, null, null, null, null, 0, 0, 800, 290, 0, 295, 0, 710);
@@ -258,7 +258,9 @@ public class Buildings {
     base23 = new BuildingModel(BuildingTypes.base, 23, rationTruck22, refinery22, null, null, 38000000, 0, 38000000, 76000000, 57000000, 3000000, 0, 25000000);
     base24 = new BuildingModel(BuildingTypes.base, 24, rationTruck23, vehicleFactory23, null, null, 50000000, 0, 50000000, 99000000, 74000000, 3400000, 0, 29000000);
     base25 = new BuildingModel(BuildingTypes.base, 25, rationTruck24, pop350k, embassy24, null, 60000000, 0, 60000000, 120000000, 89000000, 3900000, 0, 34000000);
+  }
 
+  public static void setVehicleFactory() {
     vehicleFactory2 = new BuildingModel(BuildingTypes.vehicleFactory, 2, base2, null, null, null, 0, 0, 2800, 0, 480, 870, 0, 2500);
     vehicleFactory3 = new BuildingModel(BuildingTypes.vehicleFactory, 3, base3, null, null, null, 0, 0, 8500, 0, 1400, 1300, 0, 3800);
     vehicleFactory4 = new BuildingModel(BuildingTypes.vehicleFactory, 4, base4, null, null, null, 0, 0, 26000, 0, 4300, 2000, 0, 5700);
@@ -283,7 +285,9 @@ public class Buildings {
     vehicleFactory23 = new BuildingModel(BuildingTypes.vehicleFactory, 23, base23, null, null, null, 0, 0, 111000000, 0, 19000000, 2400000, 0, 15000000);
     vehicleFactory24 = new BuildingModel(BuildingTypes.vehicleFactory, 24, base24, null, null, null, 0, 0, 150000000, 0, 25000000, 2700000, 0, 17000000);
     vehicleFactory25 = new BuildingModel(BuildingTypes.vehicleFactory, 25, base25, null, null, null, 0, 0, 180000000, 0, 30000000, 3100000, 0, 20000000);
+  }
 
+  public static void setRationTruck() {
     rationTruck1 = new BuildingModel(BuildingTypes.rationTruck, 1, base1, null, null, null, 60, 0, 0, 0, 100, 0, 0, 0);
     rationTruck2 = new BuildingModel(BuildingTypes.rationTruck, 2, base2, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
     rationTruck3 = new BuildingModel(BuildingTypes.rationTruck, 3, base3, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
