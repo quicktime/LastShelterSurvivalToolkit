@@ -116,21 +116,8 @@ public class BuildingModel implements Serializable {
   }
 
   public int getSize() {
-
-    int counter = 0;
-    if (req1 != null) {
-      counter++;
-    }
-    if (req2 != null) {
-      counter++;
-    }
-    if (req3 != null) {
-      counter++;
-    }
-    if (req4 != null) {
-      counter++;
-    }
-    return reqResources.size() + counter;
+    // TODO: include reqs
+    return reqResources.size();
   }
 
   public int getChips() {

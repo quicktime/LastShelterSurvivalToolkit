@@ -13,7 +13,6 @@ public class BuildingManager {
 
   private BuildingTypeModel buildingType;
   private ArrayList<BuildingModel> selectedBuildings;
-  private ArrayList<BuildingModel> buildings;
 
   public BuildingManager(BuildingTypeModel buildingType) {
     this.buildingType = buildingType;
@@ -22,11 +21,7 @@ public class BuildingManager {
   }
 
   public ArrayList<BuildingModel> getBuildings() {
-    if (buildings == null) {
-      buildings = new ArrayList<>();
-      buildings.addAll(selectedBuildings);
-    }
-    return buildings;
+    return selectedBuildings;
   }
 
   private void setBuildings() {
@@ -34,10 +29,10 @@ public class BuildingManager {
       case "base" :
         setBuildingsBase();
         break;
-      case "vehiclefactory" :
+      case "vehicle factory" :
         setBuildingsVehicleFactory();
         break;
-      case "rationtruck" :
+      case "ration truck" :
         setBuildingsRationTruck();
         break;
       case "bank" :
@@ -46,10 +41,10 @@ public class BuildingManager {
       case "garrison" :
         setBuildingsGarrison();
         break;
-      case "windturbine" :
+      case "wind turbine" :
         setBuildingsWindTurbine();
         break;
-      case "lumbermill" :
+      case "lumber mill" :
         setBuildingsLumberMill();
         break;
       case "hospital" :
@@ -95,7 +90,6 @@ public class BuildingManager {
   {
     selectedBuildings = new ArrayList<>();
 
-    selectedBuildings.add(Buildings.vehicleFactory1);
     selectedBuildings.add(Buildings.vehicleFactory2);
     selectedBuildings.add(Buildings.vehicleFactory3);
     selectedBuildings.add(Buildings.vehicleFactory4);

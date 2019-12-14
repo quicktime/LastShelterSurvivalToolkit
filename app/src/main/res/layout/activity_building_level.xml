@@ -5,29 +5,43 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="125dp"
-            android:background="@drawable/challenge_banner">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/building_level_type_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop" />
+
             <TextView
-                android:id="@+id/building_type_name"
+                android:id="@+id/building_level_type_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="top"
+                android:layout_gravity="center"
                 android:textColor="#fff"
-                android:textSize="28sp"/>
-        </androidx.appcompat.widget.Toolbar>
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/building_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/default_gap"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </FrameLayout>
 
         <GridView
             android:id="@+id/resources_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:numColumns="1"
-            android:background="@color/resource_bg"/>
+            android:background="@color/resource_bg"
+            android:numColumns="1" />
     </LinearLayout>
 </RelativeLayout>
