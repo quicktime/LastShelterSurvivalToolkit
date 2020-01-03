@@ -38,6 +38,18 @@
         </FrameLayout>
 
         <GridView
+            android:id="@+id/next_building_level_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/next_building_level_bg"
+            android:numColumns="1" />
+
+        <ImageView
+            android:id="@+id/requirements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+
+        <GridView
             android:id="@+id/resources_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/quest_bg"
-    tools:context=".activities.AlarmActivity"
+    tools:context=".activities.challenges.AlarmActivity"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 

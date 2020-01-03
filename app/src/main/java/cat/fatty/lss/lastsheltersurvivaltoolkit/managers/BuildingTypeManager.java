@@ -15,6 +15,7 @@ public class BuildingTypeManager {
 
     buildingTypes.add(BuildingTypes.base);
     buildingTypes.add(BuildingTypes.vehicleFactory);
+    buildingTypes.add(BuildingTypes.rationTruck);
     buildingTypes.add(BuildingTypes.shootingRange);
     buildingTypes.add(BuildingTypes.fighterCamp);
 

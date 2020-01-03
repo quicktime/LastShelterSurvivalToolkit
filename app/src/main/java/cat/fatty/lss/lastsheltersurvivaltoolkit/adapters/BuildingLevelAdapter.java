@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -49,10 +50,10 @@ public class BuildingLevelAdapter extends BaseAdapter {
       } else {
         view.setBackgroundColor(mContext.getColor(R.color.odd_resource_bg));
       }
-      TextView resource_name = view.findViewById(R.id.resource_name);
+      ImageView resource_image = view.findViewById(R.id.resource_image);
       TextView resource_amount = view.findViewById(R.id.resource_amount);
-
-      resource_name.setText(building.getReqResources().get(i).getName());
+  
+      resource_image.setImageResource(building.getReqResources().get(i).getDrawable());
       resource_amount.setText(String.format(Locale.getDefault(), "+ %d", building.getReqResources().get(i).getQuantRequired()));
     }
     return view;
