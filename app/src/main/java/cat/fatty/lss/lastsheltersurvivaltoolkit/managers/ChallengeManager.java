@@ -236,6 +236,31 @@ public class ChallengeManager {
   }
 
   private void setChallengesSunday() {
+    dailyChallenges = new ArrayList<>();
 
+    dailyChallenges.add(Challenges.SUN_ONE);
+    dailyChallenges.add(Challenges.SUN_TWO);
+    dailyChallenges.add(Challenges.SUN_THREE);
+    dailyChallenges.add(Challenges.SUN_FOUR);
+    dailyChallenges.add(Challenges.SUN_FIVE);
+    dailyChallenges.add(Challenges.SUN_SIX);
+    dailyChallenges.add(Challenges.SUN_SEVEN);
+    dailyChallenges.add(Challenges.SUN_EIGHT);
+    dailyChallenges.add(Challenges.SUN_NINE);
+    dailyChallenges.add(Challenges.SUN_TEN);
+    dailyChallenges.add(Challenges.SUN_ELEVEN);
+    dailyChallenges.add(Challenges.SUN_TWELVE);
+    dailyChallenges.add(Challenges.SUN_THIRTEEN);
+    dailyChallenges.add(Challenges.SUN_FOURTEEN);
+    dailyChallenges.add(Challenges.SUN_FIFTEEN);
+    dailyChallenges.add(Challenges.SUN_SIXTEEN);
+    dailyChallenges.add(Challenges.SUN_SEVENTEEN);
+    dailyChallenges.add(Challenges.SUN_EIGHTEEN);
+    dailyChallenges.add(Challenges.SUN_NINETEEN);
+    dailyChallenges.add(Challenges.SUN_TWENTY);
+    dailyChallenges.add(Challenges.SUN_TWENTYONE);
+    dailyChallenges.add(Challenges.SUN_TWENTYTWO);
+    dailyChallenges.add(Challenges.SUN_TWENTYTHREE);
+    dailyChallenges.add(Challenges.SUN_TWENTYFOUR);
   }
 }
