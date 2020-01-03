@@ -22,37 +22,37 @@
         </activity>
 
         <activity
-            android:name=".activities.WeekActivity"
+            android:name=".activities.challenges.WeekActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".activities.DayActivity"
+            android:name=".activities.challenges.DayActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".activities.ChallengeActivity"
+            android:name=".activities.challenges.ChallengeActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".activities.AlarmActivity"
+            android:name=".activities.challenges.AlarmActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".activities.BuildingTypeActivity"
+            android:name=".activities.buildings.BuildingTypeActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".activities.BuildingActivity"
+            android:name=".activities.buildings.BuildingActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".activities.BuildingLevelActivity"
+            android:name=".activities.buildings.BuildingLevelActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 

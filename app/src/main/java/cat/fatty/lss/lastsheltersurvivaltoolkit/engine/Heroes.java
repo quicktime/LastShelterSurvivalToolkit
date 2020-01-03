@@ -1,7 +1,30 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
 
-public class Heroes {
+import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.models.HeroModel;
 
+public class Heroes extends Skills {
+  
+  /**
+   * Green
+   */
+  public static HeroModel lostKid = new HeroModel("Lost Kid", R.drawable.lost_kid, "blah", Skills.lostKid1, Skills.lostKid2, Skills.lostKid3);
+  
+  /**
+   * Blue
+   */
+  public static HeroModel defender = new HeroModel("Defender", R.drawable.defender, "", Skills.defender1, Skills.defender2, Skills.defender3, Skills.defender4);
+  
+  /**
+   * Purple
+   */
+  public static HeroModel chrome = new HeroModel("Chrome", R.drawable.chrome, "", Skills.chrome1, Skills.chrome2, Skills.chrome3, Skills.chrome4, Skills.chrome5);
+  
+  /**
+   * Gold
+   */
+  public static HeroModel arsenal = new HeroModel("Arsenal", R.drawable.arsenal, "", Skills.arsenal1, Skills.arsenal2, Skills.arsenal3, Skills.arsenal4, Skills.arsenal5, Skills.arsenal6);
+  
   public static int lvl1 = 10;
   public static int lvl2; // TODO:
   public static int lvl3; // TODO:

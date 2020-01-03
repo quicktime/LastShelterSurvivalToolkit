@@ -44,6 +44,9 @@ public class BuildingTypeAdapter extends RecyclerView.Adapter<BuildingTypeViewHo
       case "base" :
         drawable = R.drawable.base;
         break;
+      case "ration truck":
+        drawable = R.drawable.ration_truck;
+        break;
       case "vehicle factory" :
         drawable = R.drawable.vf;
         break;
