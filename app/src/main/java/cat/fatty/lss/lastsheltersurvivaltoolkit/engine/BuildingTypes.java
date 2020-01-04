@@ -1,15 +1,13 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.engine;
 
+import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingTypeModel;
 
 public class BuildingTypes {
 
-  public static BuildingTypeModel base = new BuildingTypeModel("Base");
-  public static BuildingTypeModel vehicleFactory = new BuildingTypeModel("Vehicle Factory");
-  public static BuildingTypeModel shootingRange = new BuildingTypeModel("Shooting Range");
-  public static BuildingTypeModel fighterCamp = new BuildingTypeModel("Fighter Camp");
-  public static BuildingTypeModel trapHouse = new BuildingTypeModel("Trap House");
-  public static BuildingTypeModel garrison = new BuildingTypeModel("Garrison");
-  public static BuildingTypeModel rationTruck = new BuildingTypeModel("Ration Truck");
-  public static BuildingTypeModel ironWarehouse = new BuildingTypeModel("Iron Warehouse");
+  public static BuildingTypeModel base = new BuildingTypeModel("Base", R.drawable.base);
+  public static BuildingTypeModel vehicleFactory = new BuildingTypeModel("Vehicle Factory", R.drawable.vf);
+  public static BuildingTypeModel shootingRange = new BuildingTypeModel("Shooting Range", R.drawable.sr);
+  public static BuildingTypeModel fighterCamp = new BuildingTypeModel("Fighter Camp", R.drawable.fc);
+  public static BuildingTypeModel rationTruck = new BuildingTypeModel("Ration Truck", R.drawable.ration_truck);
 }

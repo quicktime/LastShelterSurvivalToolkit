@@ -81,4 +81,8 @@
         <item>22</item>
         <item>23</item>
     </string-array>
+
+    <string name="dev_in_progress">
+        Development in Progress…
+    </string>
 </resources>

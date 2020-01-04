@@ -7,23 +7,24 @@
     <ImageView
         android:id="@+id/resource_image"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
         android:layout_weight=".1"
-        android:layout_gravity="center_vertical" />
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="15dp"/>
 
     <TextView
         android:id="@+id/resource_amount"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:layout_weight=".3"
-        android:textAlignment="viewStart"
-        android:textColor="@color/resource_amount" />
+        android:layout_marginTop="15dp"
+        android:layout_weight=".2"
+        android:textColor="@color/resource_amount"
+        android:textSize="17sp"/>
 
-    <TextView
+    <ImageView
+        android:id="@+id/resource_check"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:paddingTop="10dp"
-        android:layout_weight=".1" />
+        android:layout_height="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_weight=".4" />
 </LinearLayout>

@@ -28,9 +28,10 @@
     <color name="quest_bg">#1f1f1f</color>
 
     <color name="resource_name">#9aa7ba</color>
-    <color name="resource_amount">#64d466</color>
+    <color name="resource_amount">#867e71</color>
     <color name="even_resource_bg">#25211e</color>
     <color name="odd_resource_bg">#151412</color>
-    <color name="resource_bg">#1f1f1f</color>
+    <color name="resource_bg">#1a1613</color>
+    <color name="resource_linesplit">#413a32</color>
     <color name="next_building_level_bg">#1f1f1f</color>
 </resources>

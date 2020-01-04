@@ -7,7 +7,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/resource_bg">
 
         <FrameLayout
             android:layout_width="wrap_content"
@@ -37,23 +38,32 @@
                 android:textSize="20sp" />
         </FrameLayout>
 
-        <GridView
-            android:id="@+id/next_building_level_grid"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/next_building_level_bg"
-            android:numColumns="1" />
+<!--        <GridView-->
+<!--            android:id="@+id/next_building_level_grid"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/next_building_level_bg"-->
+<!--            android:numColumns="1" />-->
 
         <ImageView
             android:id="@+id/requirements"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></ImageView>
+            android:layout_height="37.75dp">
+        </ImageView>
 
-        <GridView
+<!--        <GridView
+            android:id="@+id/resources_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/resource_bg"
+            android:numColumns="1" />-->
+
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/resources_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/resource_bg"
-            android:numColumns="1" />
+            android:scrollbars="vertical" />
+
     </LinearLayout>
 </RelativeLayout>

@@ -18,6 +18,9 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.BuildingManager;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingModel;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingTypeModel;
 
+/**
+ * Comes from BuildingTypeActivity
+ */
 public class BuildingActivity extends AppCompatActivity implements ItemClickListener {
   
   private ArrayList<BuildingModel> buildings;

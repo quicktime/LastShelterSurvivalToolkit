@@ -31,8 +31,8 @@ public class BuildingModel implements Serializable {
   private ResourceModel resourceChips = Resources.chips;
   private ResourceModel resourceMoney = Resources.money;
 
-  private ArrayList<ResourceModel> resources = new ArrayList<>();
-  private ArrayList<ResourceModel> reqResources = new ArrayList<>();
+  private ArrayList<ResourceModel> resources;
+  private ArrayList<ResourceModel> reqResources;
 
   public BuildingModel (BuildingTypeModel type, int lvl, BuildingModel req1, BuildingModel req2, BuildingModel req3, BuildingModel req4, int food, int water, int fuel, int lumber, int iron, int electricity, int chips, int money) {
     this.req1 = req1;
@@ -67,6 +67,8 @@ public class BuildingModel implements Serializable {
     resourceChips.setQuantRequired(chips);
     resourceMoney.setQuantRequired(money);
 
+    resources = new ArrayList<>();
+
     resources.add(resourceFood);
     resources.add(resourceWater);
     resources.add(resourceFuel);
@@ -84,8 +86,9 @@ public class BuildingModel implements Serializable {
   }
 
   private void setReqResources() {
+    reqResources = new ArrayList<>();
     for (int i = 0; i < resources.size(); i++) {
-      if (resources.get(i).getQuantRequired() != 0) {
+      if (resources.get(i).getQuantRequired() != 0) { // if the resource is required
         reqResources.add(resources.get(i));
       }
     }

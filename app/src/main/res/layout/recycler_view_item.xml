@@ -37,7 +37,6 @@
                 android:textColor="@android:color/white"
                 android:layout_below="@+id/imageView" />
 
-
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
