@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.Objects;
+
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.BuildingLevelAdapter;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.BuildingModel;
@@ -44,7 +46,7 @@ public class BuildingLevelActivity extends AppCompatActivity {
     mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     mRecyclerView.setItemAnimator(new DefaultItemAnimator());
     DividerItemDecoration itemDecorator = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
-    itemDecorator.setDrawable(ContextCompat.getDrawable(this, R.drawable.divider));
+    itemDecorator.setDrawable(Objects.requireNonNull(ContextCompat.getDrawable(this, R.drawable.divider)));
     mRecyclerView.addItemDecoration(itemDecorator);
 
     BuildingLevelAdapter testAdapter = new BuildingLevelAdapter(building, R.layout.row_resources, this);

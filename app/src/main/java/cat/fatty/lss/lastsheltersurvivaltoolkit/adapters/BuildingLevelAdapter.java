@@ -39,7 +39,7 @@ public class BuildingLevelAdapter extends RecyclerView.Adapter<BuildingLevelView
 
     viewHolder.getResourceAmount().setText(NumberFormat.getNumberInstance(Locale.getDefault()).format(resource.getQuantRequired()));
     viewHolder.getResourceImage().setImageResource(resource.getDrawable());
-    viewHolder.getResourceCheck().setImageResource(R.drawable.checkmark2);
+    viewHolder.getResourceCheck().setImageResource(R.drawable.checkmark);
   }
 
   @Override
