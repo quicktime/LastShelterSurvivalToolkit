@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.activities.challenges.ChallengeActivity;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.DayAdapter;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.ChallengeManager;
@@ -43,6 +42,8 @@ public class DayActivity extends AppCompatActivity implements ItemClickListener 
   public void onClick(View view, int position) {
     final ChallengeModel challenge = challenges.get(position);
     Intent intent = new Intent(this, ChallengeActivity.class);
+    String day = getIntent().getStringExtra("day");
+    intent.putExtra("day", day);
     intent.putExtra("challenge", challenge);
     intent.putExtra("hour", position);
     startActivity(intent);
