@@ -15,14 +15,24 @@ public class ChallengeModel implements Serializable {
   private ArrayList<QuestModel> quests = new ArrayList<>();
   private int questNum;
   private int color;
+  private boolean alarmSet;
 
-  public ChallengeModel(String name, boolean difficult, boolean doubleUp, QuestModel... quests) {
+  public ChallengeModel(String name, boolean difficult, boolean doubleUp, boolean alarmSet, QuestModel... quests) {
     this.name = name;
     this.quests.addAll(Arrays.asList(quests));
     this.questNum = quests.length;
     this.difficult = difficult;
     this.doubleUp = doubleUp;
+    this.alarmSet = alarmSet;
     setGraphics();
+  }
+
+  public void setAlarm(boolean setAlarm) {
+    this.alarmSet = setAlarm;
+  }
+
+  public boolean isAlarmSet() {
+    return alarmSet;
   }
 
   private void setGraphics() {

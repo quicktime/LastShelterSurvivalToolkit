@@ -27,6 +27,12 @@
             android:gravity="center"
             android:textColor="@android:color/white"
             android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/challenge_alarm_image"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true" />
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

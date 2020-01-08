@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -28,6 +29,7 @@ public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder> {
     this.mContext = context;
   }
 
+  @NonNull
   @Override
   public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int position) {
     View v = LayoutInflater.from(viewGroup.getContext()).inflate(rowLayout, viewGroup, false);
@@ -40,6 +42,13 @@ public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder> {
     viewHolder.DataModelName.setText(challenge.getName());
     viewHolder.DataModelName.setTextColor(challenge.getColor());
     viewHolder.DataModelImage.setImageResource(challenge.getImageResourceId(mContext));
+    viewHolder.alarmSet.setImageResource(R.drawable.ic_alarm_notification_foreground);
+
+    int visible = View.INVISIBLE;
+    if (challenge.isAlarmSet()) {
+      visible = View.VISIBLE;
+    }
+    viewHolder.alarmSet.setVisibility(visible);
   }
 
   @Override
@@ -52,13 +61,15 @@ public class DayAdapter extends RecyclerView.Adapter<DayAdapter.ViewHolder> {
   }
 
   public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-    public TextView DataModelName;
-    public ImageView DataModelImage;
+    TextView DataModelName;
+    ImageView DataModelImage;
+    ImageView alarmSet;
 
-    public ViewHolder(View itemView) {
+    ViewHolder(View itemView) {
       super(itemView);
       DataModelName = itemView.findViewById(R.id.hour_name);
       DataModelImage = itemView.findViewById(R.id.hour_image);
+      alarmSet = itemView.findViewById(R.id.challenge_alarm_image);
       itemView.setTag(itemView);
       itemView.setOnClickListener(this);
     }

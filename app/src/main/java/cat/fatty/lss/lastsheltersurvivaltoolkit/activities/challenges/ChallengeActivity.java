@@ -37,7 +37,7 @@ public class ChallengeActivity extends AppCompatActivity {
       @Override
       public void onClick(View view) {
         Intent intent = new Intent(ChallengeActivity.this, AlarmActivity.class);
-        intent.putExtra("requestCode", challenge.hashCode());
+        intent.putExtra("challenge", challenge);
         intent.putExtra("hour", getIntent().getIntExtra("hour", 0));
         intent.putExtra("day", getIntent().getStringExtra("day"));
         startActivity(intent);
