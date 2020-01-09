@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.time.DayOfWeek;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Locale;
@@ -22,8 +23,12 @@ import java.util.Locale;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.AlarmReceiver;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.engine.Clock;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.ChallengeManager;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
 
+/**
+ * From ChallengeActivity
+ */
 public class AlarmActivity extends AppCompatActivity {
 
   private AlarmManager alarmManager;
@@ -32,15 +37,19 @@ public class AlarmActivity extends AppCompatActivity {
   private int localHour;
   private NotificationManager mNotificationManager;
   private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
+  private ChallengeModel intentChallenge;
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_alarm);
 
-    String intentDay = getIntent().getStringExtra("day");
+    final String intentDay = getIntent().getStringExtra("day");
     int intentHour = getIntent().getIntExtra("hour", 0);
-    final ChallengeModel intentChallenge = (ChallengeModel) getIntent().getSerializableExtra("challenge");
+
+    final ChallengeManager challengeManager = new ChallengeManager(this, intentDay);
+    ArrayList<ChallengeModel> challengeList = challengeManager.getManagedChallenges();
+    intentChallenge = challengeList.get(intentHour);
 
     Clock clock = new Clock(intentDay, intentHour);
     clock.toLocalTime();
@@ -57,8 +66,23 @@ public class AlarmActivity extends AppCompatActivity {
 
     mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
-    // Start button
     Button alarmStart = findViewById(R.id.alarmStart);
+    Button alarmStop = findViewById(R.id.alarmStop);
+
+    if (intentChallenge.isAlarmSet()) {
+      alarmStart.setVisibility(View.INVISIBLE);
+      alarmStop.setVisibility(View.VISIBLE);
+    } else {
+      alarmStart.setVisibility(View.VISIBLE);
+      alarmStop.setVisibility(View.INVISIBLE);
+    }
+
+    if (intentChallenge.isAlarmSet()) {
+      // TODO: Give each challenge a different requestCode
+      pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+    }
+
+    // Start button
     alarmStart.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
@@ -72,12 +96,12 @@ public class AlarmActivity extends AppCompatActivity {
         alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 7, pendingIntent);
         Toast.makeText(getApplicationContext(), "Alarm set!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(true);
-        finish();
+        challengeManager.writeToJson(intentDay + "_challenges.json");
+        finish(); // TODO: Go to DayActivity
       }
     });
 
     // Stop button
-    Button alarmStop = findViewById(R.id.alarmStop);
     alarmStop.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
@@ -85,6 +109,8 @@ public class AlarmActivity extends AppCompatActivity {
         pendingIntent.cancel();
         Toast.makeText(getApplicationContext(), "Alarm cancelled!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(false);
+        challengeManager.writeToJson(intentDay + "_challenges.json");
+        finish();
       }
     });
 

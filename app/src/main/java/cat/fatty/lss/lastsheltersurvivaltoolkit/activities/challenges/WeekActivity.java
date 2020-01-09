@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.activities.challenges.DayActivity;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.WeekAdapter;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.DayManager;

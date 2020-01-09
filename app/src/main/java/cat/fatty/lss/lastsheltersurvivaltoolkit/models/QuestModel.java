@@ -4,16 +4,16 @@ import java.io.Serializable;
 
 public class QuestModel implements Serializable {
 
-  private String name;
+  private String description;
   private int reward;
 
-  public QuestModel(String name, int reward) {
-    this.name = name;
+  public QuestModel(String description, int reward) {
+    this.description = description;
     this.reward = reward;
   }
 
-  public String getName() {
-    return name;
+  public String getDescription() {
+    return description;
   }
 
   public int getReward() {

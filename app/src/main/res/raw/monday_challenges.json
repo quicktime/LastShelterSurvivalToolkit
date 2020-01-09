@@ -1,0 +1,542 @@
+[
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU / VIP",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train SU / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All 3 Speed Ups",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / TrainSU / EC",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / Tech / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU / VIP",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train SU / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All 3 Speed Ups",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / TrainSU / EC",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / Tech / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU / VIP",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train SU / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All 3 Speed Ups",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / TrainSU / EC",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / Tech / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / VIP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 VIP point",
+        "reward": 100
+      }
+    ]
+  }
+]

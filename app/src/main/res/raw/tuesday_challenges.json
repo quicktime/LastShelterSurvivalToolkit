@@ -1,0 +1,704 @@
+[
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / CP",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / TrainSU / EC",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / CP",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All 3 Speed Ups",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / CP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 8,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU / EC",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / Tech",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / CP",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / TrainSU / EC",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / CP",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All 3 Speed Ups",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / CP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 8,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU / EC",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / Tech",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / CP",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / TrainSU / EC",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / CP",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_doubleup",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All 3 Speed Ups",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / CP",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 8,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Craft 1 Golden Part",
+        "reward": 500000
+      },
+      {
+        "description": "Craft 1 Orange Part",
+        "reward": 120000
+      },
+      {
+        "description": "Craft 1 Purple Part",
+        "reward": 10000
+      },
+      {
+        "description": "Craft 1 Blue Part",
+        "reward": 5000
+      },
+      {
+        "description": "Craft 1 Green Part",
+        "reward": 100
+      },
+      {
+        "description": "Craft 1 White Part",
+        "reward": 50
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU / EC",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build / Tech",
+    "difficult": false,
+    "doubleUp": true,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Train 1 Unit",
+        "reward": 0
+      },
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  }
+]

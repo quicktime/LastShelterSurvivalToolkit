@@ -4,16 +4,18 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.Locale;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.QuestModel;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.view.ChallengeViewHolder;
 
-public class ChallengeAdapter extends BaseAdapter {
+public class ChallengeAdapter extends RecyclerView.Adapter<ChallengeViewHolder> {
 
   private ArrayList<QuestModel> questModels;
   private int mLayout;
@@ -25,38 +27,28 @@ public class ChallengeAdapter extends BaseAdapter {
     this.mContext = context;
   }
 
+  @NonNull
   @Override
-  public int getCount() {
-    return questModels.size();
+  public ChallengeViewHolder onCreateViewHolder(ViewGroup viewGroup, int position) {
+    View v = LayoutInflater.from(viewGroup.getContext()).inflate(mLayout, viewGroup, false);
+    return new ChallengeViewHolder(v);
   }
 
   @Override
-  public Object getItem(int i) {
-    return i;
-  }
+  public void onBindViewHolder(ChallengeViewHolder viewHolder, int position) {
+    final QuestModel questModel = questModels.get(position);
 
-  @Override
-  public long getItemId(int i) {
-    return i;
-  }
-
-  @Override
-  public View getView(int i, View view, ViewGroup viewGroup) {
-    if (view == null) {
-
-      view = LayoutInflater.from(viewGroup.getContext()).inflate(mLayout, viewGroup, false);
-      if (i % 2 == 0) {
-        view.setBackgroundColor(mContext.getColor(R.color.even_quest_bg));
-      } else {
-        view.setBackgroundColor(mContext.getColor(R.color.odd_quest_bg));
-      }
-      TextView questName = view.findViewById(R.id.quest_name);
-      TextView questReward = view.findViewById(R.id.quest_reward);
-
-      questName.setText(questModels.get(i).getName());
-      questReward.setText(String.format(Locale.getDefault(), "+ %d", questModels.get(i).getReward()));
+    viewHolder.getQuestDescription().setText(questModel.getDescription());
+    viewHolder.getQuestReward().setText(String.format(Locale.getDefault(), "+ %d", questModel.getReward()));
+    if (position % 2 == 0) {
+      viewHolder.getItemView().setBackgroundColor(mContext.getColor(R.color.even_quest_bg));
+    } else {
+      viewHolder.getItemView().setBackgroundColor(mContext.getColor(R.color.odd_quest_bg));
     }
-    return view;
   }
 
+  @Override
+  public int getItemCount() {
+    return questModels == null ? 0 : questModels.size();
+  }
 }

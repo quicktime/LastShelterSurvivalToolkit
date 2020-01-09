@@ -24,12 +24,12 @@
                 android:textSize="28sp"/>
         </androidx.appcompat.widget.Toolbar>
 
-        <GridView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/quests_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:numColumns="1"
-            android:background="@color/quest_bg"/>
+            android:background="@color/resource_bg"
+            android:scrollbars="vertical" />
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

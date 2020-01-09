@@ -1,0 +1,446 @@
+[
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "Any Speed Up",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Every 1 min of any speed-up items used",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": true,
+    "doubleUp": false,
+    "description": "Tech / Tech SU",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "All 3 Speed Ups",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "All 3 Speed Ups",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech / Train SU / EC",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "Any Speed Up",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Every 1 min of any speed-up items used",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": true,
+    "doubleUp": false,
+    "description": "Tech / Tech SU",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "All 3 Speed Ups",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "All 3 Speed Ups",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech / Train SU / EC",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "Any Speed Up",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Every 1 min of any speed-up items used",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": true,
+    "doubleUp": false,
+    "description": "Tech / Tech SU",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "All 3 Speed Ups",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": false,
+    "description": "All 3 Speed Ups",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech / Train SU / EC",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ]
+  },
+  {
+    "alarmSet": false,
+    "difficult": false,
+    "doubleUp": true,
+    "description": "Build / Tech",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      }
+    ]
+  }
+]

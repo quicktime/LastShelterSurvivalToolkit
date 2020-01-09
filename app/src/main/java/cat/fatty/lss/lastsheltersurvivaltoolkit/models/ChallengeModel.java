@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class ChallengeModel implements Serializable {
 
-  private String name;
+  private String description;
   private String image;
   private boolean difficult;
   private boolean doubleUp;
@@ -17,13 +17,12 @@ public class ChallengeModel implements Serializable {
   private int color;
   private boolean alarmSet;
 
-  public ChallengeModel(String name, boolean difficult, boolean doubleUp, boolean alarmSet, QuestModel... quests) {
-    this.name = name;
+  public ChallengeModel(String description, boolean difficult, boolean doubleUp, QuestModel... quests) {
+    this.description = description;
     this.quests.addAll(Arrays.asList(quests));
     this.questNum = quests.length;
     this.difficult = difficult;
     this.doubleUp = doubleUp;
-    this.alarmSet = alarmSet;
     setGraphics();
   }
 
@@ -53,8 +52,9 @@ public class ChallengeModel implements Serializable {
     return this.color;
   }
 
-  public int getImageResourceId(Context context)
+  public int getImage(Context context)
   {
+    setGraphics();
     try {
       return context.getResources().getIdentifier(image, "drawable", context.getPackageName());
     } catch (Exception e) {
@@ -63,20 +63,8 @@ public class ChallengeModel implements Serializable {
     }
   }
 
-  public String getName() {
-    return name;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public String getImage() {
-    return image;
-  }
-
-  public void setImage(String image) {
-    this.image = image;
+  public String getDescription() {
+    return description;
   }
 
   public int getQuestNum() {
@@ -85,5 +73,9 @@ public class ChallengeModel implements Serializable {
 
   public QuestModel getQuest(int questNum) {
     return quests.get(questNum);
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
   }
 }

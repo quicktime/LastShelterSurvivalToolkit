@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.DayAdapter;
@@ -17,34 +17,37 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.listeners.ItemClickListener;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.managers.ChallengeManager;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
 
+/**
+ * From WeekActivity
+ */
 public class DayActivity extends AppCompatActivity implements ItemClickListener {
   
-  private List<ChallengeModel> challenges;
-  
+  ArrayList<ChallengeModel> challengeList;
+  private String day;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_city);
-    String day = getIntent().getStringExtra("day");
-    challenges = new ChallengeManager(day).getChallenges();
-    
+    day = getIntent().getStringExtra("day");
+
+    ChallengeManager challengeManager = new ChallengeManager(this, day);
+    challengeList = challengeManager.getManagedChallenges();
+
     RecyclerView mRecyclerView = findViewById(R.id.list);
     mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-    
-    DayAdapter mAdapter = new DayAdapter(challenges, R.layout.row_hours, this);
+
+    DayAdapter mAdapter = new DayAdapter(challengeList, R.layout.row_hours, this);
     mRecyclerView.setAdapter(mAdapter);
     mAdapter.setClickListener(this);
   }
   
   @Override
   public void onClick(View view, int position) {
-    final ChallengeModel challenge = challenges.get(position);
     Intent intent = new Intent(this, ChallengeActivity.class);
-    String day = getIntent().getStringExtra("day");
     intent.putExtra("day", day);
-    intent.putExtra("challenge", challenge);
     intent.putExtra("hour", position);
     startActivity(intent);
   }

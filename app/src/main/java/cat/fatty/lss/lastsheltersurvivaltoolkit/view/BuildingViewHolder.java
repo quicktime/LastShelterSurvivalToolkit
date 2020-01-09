@@ -36,12 +36,4 @@ public class BuildingViewHolder extends RecyclerView.ViewHolder implements View.
   public TextView getDataModelName() {
     return DataModelName;
   }
-
-  public void setDataModelImage(ImageView dataModelImage) {
-    DataModelImage = dataModelImage;
-  }
-
-  public void setDataModelName(TextView dataModelName) {
-    DataModelName = dataModelName;
-  }
 }
