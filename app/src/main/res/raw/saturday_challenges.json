@@ -1,0 +1,710 @@
+[
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Any Speed Up",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Every 1 min of any speed-up items used",
+        "reward": 400
+      }
+    ],
+	"requestCode": 48
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Tech / Tech SU",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 49
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 50
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train SU",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 51
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / Train SU / EC",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ],
+	"requestCode": 52
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / Train SU",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 53
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 11,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Train a 10 Unit",
+        "reward": 215
+      },
+      {
+        "description": "Train a 9 Unit",
+        "reward": 190
+      },
+      {
+        "description": "Train a 8 Unit",
+        "reward": 165
+      },
+      {
+        "description": "Train a 7 Unit",
+        "reward": 140
+      },
+      {
+        "description": "Train a 6 Unit",
+        "reward": 115
+      },
+      {
+        "description": "Train a 5 Unit",
+        "reward": 90
+      },
+      {
+        "description": "Train a 4 Unit",
+        "reward": 65
+      },
+      {
+        "description": "Train a 3 Unit",
+        "reward": 50
+      },
+      {
+        "description": "Train a 2 Unit",
+        "reward": 25
+      },
+      {
+        "description": "Train a 1 Unit",
+        "reward": 5
+      }
+    ],
+	"requestCode": 54
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Tech",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 11,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Train a 10 Unit",
+        "reward": 215
+      },
+      {
+        "description": "Train a 9 Unit",
+        "reward": 190
+      },
+      {
+        "description": "Train a 8 Unit",
+        "reward": 165
+      },
+      {
+        "description": "Train a 7 Unit",
+        "reward": 140
+      },
+      {
+        "description": "Train a 6 Unit",
+        "reward": 115
+      },
+      {
+        "description": "Train a 5 Unit",
+        "reward": 90
+      },
+      {
+        "description": "Train a 4 Unit",
+        "reward": 65
+      },
+      {
+        "description": "Train a 3 Unit",
+        "reward": 50
+      },
+      {
+        "description": "Train a 2 Unit",
+        "reward": 25
+      },
+      {
+        "description": "Train a 1 Unit",
+        "reward": 5
+      }
+    ],
+	"requestCode": 55
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Any Speed Up",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Every 1 min of any speed-up items used",
+        "reward": 400
+      }
+    ],
+	"requestCode": 56
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Tech / Tech SU",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 57
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 58
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train SU",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 59
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / Train SU / EC",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ],
+	"requestCode": 60
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / Train SU",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 61
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 11,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Train a 10 Unit",
+        "reward": 215
+      },
+      {
+        "description": "Train a 9 Unit",
+        "reward": 190
+      },
+      {
+        "description": "Train a 8 Unit",
+        "reward": 165
+      },
+      {
+        "description": "Train a 7 Unit",
+        "reward": 140
+      },
+      {
+        "description": "Train a 6 Unit",
+        "reward": 115
+      },
+      {
+        "description": "Train a 5 Unit",
+        "reward": 90
+      },
+      {
+        "description": "Train a 4 Unit",
+        "reward": 65
+      },
+      {
+        "description": "Train a 3 Unit",
+        "reward": 50
+      },
+      {
+        "description": "Train a 2 Unit",
+        "reward": 25
+      },
+      {
+        "description": "Train a 1 Unit",
+        "reward": 5
+      }
+    ],
+	"requestCode": 62
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Tech",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 11,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Train a 10 Unit",
+        "reward": 215
+      },
+      {
+        "description": "Train a 9 Unit",
+        "reward": 190
+      },
+      {
+        "description": "Train a 8 Unit",
+        "reward": 165
+      },
+      {
+        "description": "Train a 7 Unit",
+        "reward": 140
+      },
+      {
+        "description": "Train a 6 Unit",
+        "reward": 115
+      },
+      {
+        "description": "Train a 5 Unit",
+        "reward": 90
+      },
+      {
+        "description": "Train a 4 Unit",
+        "reward": 65
+      },
+      {
+        "description": "Train a 3 Unit",
+        "reward": 50
+      },
+      {
+        "description": "Train a 2 Unit",
+        "reward": 25
+      },
+      {
+        "description": "Train a 1 Unit",
+        "reward": 5
+      }
+    ],
+	"requestCode": 63
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Any Speed Up",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Every 1 min of any speed-up items used",
+        "reward": 400
+      }
+    ],
+	"requestCode": 64
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Tech / Tech SU",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Research Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 65
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Build SU",
+    "difficult": true,
+    "doubleUp": false,
+    "image": "challenge_difficult",
+    "questNum": 2,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Use 1 Min Building Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 66
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train SU",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 1,
+    "quests": [
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 67
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / Train SU / EC",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      },
+      {
+        "description": "Consume 1 Energy Core",
+        "reward": 20
+      }
+    ],
+	"requestCode": 68
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Build / Tech / Train SU",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 3,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Use 1 Min Training Speed Up",
+        "reward": 400
+      }
+    ],
+	"requestCode": 69
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Build",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 11,
+    "quests": [
+      {
+        "description": "Increase 1 Building Power",
+        "reward": 1000
+      },
+      {
+        "description": "Train a 10 Unit",
+        "reward": 215
+      },
+      {
+        "description": "Train a 9 Unit",
+        "reward": 190
+      },
+      {
+        "description": "Train a 8 Unit",
+        "reward": 165
+      },
+      {
+        "description": "Train a 7 Unit",
+        "reward": 140
+      },
+      {
+        "description": "Train a 6 Unit",
+        "reward": 115
+      },
+      {
+        "description": "Train a 5 Unit",
+        "reward": 90
+      },
+      {
+        "description": "Train a 4 Unit",
+        "reward": 65
+      },
+      {
+        "description": "Train a 3 Unit",
+        "reward": 50
+      },
+      {
+        "description": "Train a 2 Unit",
+        "reward": 25
+      },
+      {
+        "description": "Train a 1 Unit",
+        "reward": 5
+      }
+    ],
+	"requestCode": 70
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Train / Tech",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 11,
+    "quests": [
+      {
+        "description": "Increase 1 Technology Power",
+        "reward": 400
+      },
+      {
+        "description": "Train a 10 Unit",
+        "reward": 215
+      },
+      {
+        "description": "Train a 9 Unit",
+        "reward": 190
+      },
+      {
+        "description": "Train a 8 Unit",
+        "reward": 165
+      },
+      {
+        "description": "Train a 7 Unit",
+        "reward": 140
+      },
+      {
+        "description": "Train a 6 Unit",
+        "reward": 115
+      },
+      {
+        "description": "Train a 5 Unit",
+        "reward": 90
+      },
+      {
+        "description": "Train a 4 Unit",
+        "reward": 65
+      },
+      {
+        "description": "Train a 3 Unit",
+        "reward": 50
+      },
+      {
+        "description": "Train a 2 Unit",
+        "reward": 25
+      },
+      {
+        "description": "Train a 1 Unit",
+        "reward": 5
+      }
+    ],
+	"requestCode": 71
+  }
+]

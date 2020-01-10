@@ -20,7 +20,8 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
+    ],
+    "requestCode": 0
   },
   {
     "alarmSet": false,
@@ -39,7 +40,8 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
+    ],
+    "requestCode": 1
   },
   {
     "alarmSet": false,
@@ -58,7 +60,8 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
+    ],
+    "requestCode": 2
   },
   {
     "alarmSet": false,
@@ -81,7 +84,8 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
+    ],
+    "requestCode": 3
   },
   {
     "alarmSet": false,
@@ -104,8 +108,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 4
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -131,8 +136,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 5
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -158,8 +164,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 6
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -177,8 +184,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 7
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -200,8 +208,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 8
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -219,8 +228,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 9
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -238,8 +248,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 10
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -261,8 +272,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 11
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -284,8 +296,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 12
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -311,8 +324,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 13
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -338,8 +352,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 14
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -357,8 +372,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 15
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -380,8 +396,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 16
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -399,8 +416,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 17
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -418,8 +436,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 18
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -441,8 +460,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 19
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -464,8 +484,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 20
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -491,8 +512,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 21
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -518,8 +540,9 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
-  },
+    ],
+	"requestCode": 22
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -537,6 +560,7 @@
         "description": "Spend 1 VIP point",
         "reward": 100
       }
-    ]
+    ],
+	"requestCode": 23
   }
 ]

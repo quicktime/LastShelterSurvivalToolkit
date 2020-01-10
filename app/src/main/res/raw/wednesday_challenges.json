@@ -10,8 +10,9 @@
         "description": "Every 1 min of any speed-up items used",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 144
+	},
   {
     "alarmSet": false,
     "difficult": true,
@@ -27,8 +28,9 @@
         "description": "Use 1 Min Research Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 145
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -48,8 +50,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 146
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -65,8 +68,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 147
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -82,8 +86,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 148
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -103,8 +108,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 149
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -128,8 +134,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 150
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -145,8 +152,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 151
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -158,8 +166,9 @@
         "description": "Every 1 min of any speed-up items used",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 152
+	},
   {
     "alarmSet": false,
     "difficult": true,
@@ -175,8 +184,9 @@
         "description": "Use 1 Min Research Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 153
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -196,8 +206,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 154
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -213,8 +224,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 155
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -230,8 +242,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 156
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -251,8 +264,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 157
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -276,8 +290,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 158
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -293,8 +308,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 159
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -306,8 +322,9 @@
         "description": "Every 1 min of any speed-up items used",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 160
+	},
   {
     "alarmSet": false,
     "difficult": true,
@@ -323,8 +340,9 @@
         "description": "Use 1 Min Research Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 161
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -344,8 +362,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 162
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -361,8 +380,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 163
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -378,8 +398,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 164
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -399,8 +420,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 165
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -424,8 +446,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 166
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -441,6 +464,7 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
+    ],
+	"requestCode": 167
   }
 ]

@@ -16,6 +16,7 @@ public class ChallengeModel implements Serializable {
   private int questNum;
   private int color;
   private boolean alarmSet;
+  private int requestCode; // don't need to initialize this. GSON will initialize
 
   public ChallengeModel(String description, boolean difficult, boolean doubleUp, QuestModel... quests) {
     this.description = description;
@@ -77,5 +78,9 @@ public class ChallengeModel implements Serializable {
 
   public void setDescription(String description) {
     this.description = description;
+  }
+
+  public int getRequestCode() {
+    return requestCode;
   }
 }

@@ -9,7 +9,7 @@ import android.content.Intent;
 import androidx.core.app.NotificationCompat;
 
 import cat.fatty.lss.lastsheltersurvivaltoolkit.R;
-import cat.fatty.lss.lastsheltersurvivaltoolkit.activities.challenges.AlarmActivity;
+import cat.fatty.lss.lastsheltersurvivaltoolkit.activities.MainActivity;
 
 public class AlarmReceiver extends BroadcastReceiver {
 
@@ -28,7 +28,7 @@ public class AlarmReceiver extends BroadcastReceiver {
   }
 
   private void deliverNotification(Context context) {
-    Intent contentIntent = new Intent(context, AlarmActivity.class);
+    Intent contentIntent = new Intent(context, MainActivity.class); // Go to MainActivity when user clicks on notification
     PendingIntent contentPendingIntent = PendingIntent.getActivity(context, NOTIFICATION_ID, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
     NotificationCompat.Builder builder = new NotificationCompat.Builder(context, PRIMARY_CHANNEL_ID)

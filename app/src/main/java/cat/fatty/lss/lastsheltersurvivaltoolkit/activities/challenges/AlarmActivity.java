@@ -51,6 +51,8 @@ public class AlarmActivity extends AppCompatActivity {
     ArrayList<ChallengeModel> challengeList = challengeManager.getManagedChallenges();
     intentChallenge = challengeList.get(intentHour);
 
+    final int challengeRequestCode = intentChallenge.getRequestCode();
+
     Clock clock = new Clock(intentDay, intentHour);
     clock.toLocalTime();
     localDayOfWeek = clock.getChallengeLocalDayOfWeek();
@@ -62,7 +64,6 @@ public class AlarmActivity extends AppCompatActivity {
 
     alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
     final Intent intent = new Intent(this, AlarmReceiver.class);
-    final Calendar calendar = new GregorianCalendar();
 
     mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
@@ -79,25 +80,28 @@ public class AlarmActivity extends AppCompatActivity {
 
     if (intentChallenge.isAlarmSet()) {
       // TODO: Give each challenge a different requestCode
-      pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+      pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, intent, PendingIntent.FLAG_CANCEL_CURRENT);
     }
 
     // Start button
     alarmStart.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        calendar.add(Calendar.SECOND, 1);
-        calendar.set(Calendar.DAY_OF_WEEK, localDayOfWeek.getValue());
+        final Calendar calendar = new GregorianCalendar();
+        calendar.setTimeInMillis(System.currentTimeMillis());
+        calendar.set(Calendar.DAY_OF_WEEK, localDayOfWeek.getValue() + 1); // Have to add 1 day
         calendar.set(Calendar.HOUR_OF_DAY, localHour);
-        calendar.set(Calendar.MINUTE, 45);
+        calendar.set(Calendar.MINUTE, 44);
 
-        pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+        pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, intent, PendingIntent.FLAG_CANCEL_CURRENT);
 
         alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 7, pendingIntent);
         Toast.makeText(getApplicationContext(), "Alarm set!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(true);
         challengeManager.writeToJson(intentDay + "_challenges.json");
-        finish(); // TODO: Go to DayActivity
+        Intent intent = new Intent(AlarmActivity.this, WeekActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
       }
     });
 
@@ -110,7 +114,9 @@ public class AlarmActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "Alarm cancelled!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(false);
         challengeManager.writeToJson(intentDay + "_challenges.json");
-        finish();
+        Intent intent = new Intent(AlarmActivity.this, WeekActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
       }
     });
 

@@ -84,8 +84,9 @@
         "description": "Kill a Lvl 1 Zombie",
         "reward": 2000
       }
-    ]
-  },
+    ],
+	"requestCode": 96
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -123,6 +124,1211 @@
         "description": "Use one Super Recruitment Ticket",
         "reward": 200000
       }
-    ]
+    ],
+	"requestCode": 97
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Wisdom / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 18,
+    "quests": [
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 98
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 99
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Recruit / Spend Wisdom",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 100
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 101
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Wisdom / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 18,
+    "quests": [
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 102
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 103
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Recruit / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 19,
+    "quests": [
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 104
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 105
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Wisdom / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 18,
+    "quests": [
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 106
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 107
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Recruit / Spend Wisdom",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 108
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 109
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Wisdom / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 18,
+    "quests": [
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 110
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 111
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Recruit / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 19,
+    "quests": [
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 112
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 113
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Wisdom / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 18,
+    "quests": [
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 114
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 115
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Recruit / Spend Wisdom",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 4,
+    "quests": [
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 116
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 117
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "Wisdom / Zombies",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 18,
+    "quests": [
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Kill a Lvl 15 Zombie",
+        "reward": 4800
+      },
+      {
+        "description": "Kill a Lvl 14 Zombie",
+        "reward": 4600
+      },
+      {
+        "description": "Kill a Lvl 13 Zombie",
+        "reward": 4400
+      },
+      {
+        "description": "Kill a Lvl 12 Zombie",
+        "reward": 4200
+      },
+      {
+        "description": "Kill a Lvl 11 Zombie",
+        "reward": 4000
+      },
+      {
+        "description": "Kill a Lvl 10 Zombie",
+        "reward": 3800
+      },
+      {
+        "description": "Kill a Lvl 9 Zombie",
+        "reward": 3600
+      },
+      {
+        "description": "Kill a Lvl 8 Zombie",
+        "reward": 3400
+      },
+      {
+        "description": "Kill a Lvl 7 Zombie",
+        "reward": 3200
+      },
+      {
+        "description": "Kill a Lvl 6 Zombie",
+        "reward": 3000
+      },
+      {
+        "description": "Kill a Lvl 5 Zombie",
+        "reward": 2800
+      },
+      {
+        "description": "Kill a Lvl 4 Zombie",
+        "reward": 2600
+      },
+      {
+        "description": "Kill a Lvl 3 Zombie",
+        "reward": 2400
+      },
+      {
+        "description": "Kill a Lvl 2 Zombie",
+        "reward": 2200
+      },
+      {
+        "description": "Kill a Lvl 1 Zombie",
+        "reward": 2000
+      }
+    ],
+	"requestCode": 118
+	},
+  {
+    "alarmSet": false,
+    "color": -1,
+    "description": "All Hero Development",
+    "difficult": false,
+    "doubleUp": false,
+    "image": "challenge_normal",
+    "questNum": 7,
+    "quests": [
+      {
+        "description": "Exchange and obtain 1 wisdom medal",
+        "reward": 1000
+      },
+      {
+        "description": "Spend 1 Wisdom Medal",
+        "reward": 2000
+      },
+      {
+        "description": "Gaining 10 Hero Xp",
+        "reward": 1
+      },
+      {
+        "description": "Unlock a skill for any hero",
+        "reward": 20000
+      },
+      {
+        "description": "Use 1 Normal Recruitment Ticket",
+        "reward": 10000
+      },
+      {
+        "description": "Use one Advanced Recruitment Ticket",
+        "reward": 50000
+      },
+      {
+        "description": "Use one Super Recruitment Ticket",
+        "reward": 200000
+      }
+    ],
+	"requestCode": 119
   }
 ]

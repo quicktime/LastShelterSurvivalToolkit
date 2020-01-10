@@ -36,8 +36,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 120
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -63,8 +64,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 121
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -102,8 +104,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 122
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -125,8 +128,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 123
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -168,8 +172,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 124
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -191,8 +196,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 125
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -208,8 +214,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 126
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -231,8 +238,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 127
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -270,8 +278,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 128
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -297,8 +306,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 129
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -336,8 +346,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 130
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -359,8 +370,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 131
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -402,8 +414,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 132
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -425,8 +438,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 133
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -442,8 +456,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 134
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -465,8 +480,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 135
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -504,8 +520,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 136
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -531,8 +548,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 137
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -570,8 +588,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 138
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -593,8 +612,9 @@
         "description": "Use 1 Min Training Speed Up",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 139
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -636,8 +656,9 @@
         "description": "Craft 1 White Part",
         "reward": 50
       }
-    ]
-  },
+    ],
+	"requestCode": 140
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -659,8 +680,9 @@
         "description": "Consume 1 Energy Core",
         "reward": 20
       }
-    ]
-  },
+    ],
+	"requestCode": 141
+	},
   {
     "alarmSet": false,
     "difficult": false,
@@ -676,8 +698,9 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
-  },
+    ],
+	"requestCode": 142
+	},
   {
     "alarmSet": false,
     "color": -1,
@@ -699,6 +722,7 @@
         "description": "Increase 1 Technology Power",
         "reward": 400
       }
-    ]
+    ],
+	"requestCode": 143
   }
 ]
