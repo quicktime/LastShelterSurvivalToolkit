@@ -224,7 +224,7 @@
     "difficult": false,
     "doubleUp": true,
     "image": "challenge_normal",
-    "questNum": 4,
+    "questNum": 3,
     "quests": [
       {
         "description": "Train 1 Unit",
@@ -466,7 +466,7 @@
     "difficult": false,
     "doubleUp": true,
     "image": "challenge_normal",
-    "questNum": 4,
+    "questNum": 3,
     "quests": [
       {
         "description": "Train 1 Unit",
@@ -708,7 +708,7 @@
     "difficult": false,
     "doubleUp": true,
     "image": "challenge_normal",
-    "questNum": 4,
+    "questNum": 3,
     "quests": [
       {
         "description": "Train 1 Unit",

@@ -56,6 +56,58 @@ public class Buildings {
   public static BuildingModel vehicleFactory24;
   public static BuildingModel vehicleFactory25;
 
+  public static BuildingModel fighterCamp1;
+  public static BuildingModel fighterCamp2;
+  public static BuildingModel fighterCamp3;
+  public static BuildingModel fighterCamp4;
+  public static BuildingModel fighterCamp5;
+  public static BuildingModel fighterCamp6;
+  public static BuildingModel fighterCamp7;
+  public static BuildingModel fighterCamp8;
+  public static BuildingModel fighterCamp9;
+  public static BuildingModel fighterCamp10;
+  public static BuildingModel fighterCamp11;
+  public static BuildingModel fighterCamp12;
+  public static BuildingModel fighterCamp13;
+  public static BuildingModel fighterCamp14;
+  public static BuildingModel fighterCamp15;
+  public static BuildingModel fighterCamp16;
+  public static BuildingModel fighterCamp17;
+  public static BuildingModel fighterCamp18;
+  public static BuildingModel fighterCamp19;
+  public static BuildingModel fighterCamp20;
+  public static BuildingModel fighterCamp21;
+  public static BuildingModel fighterCamp22;
+  public static BuildingModel fighterCamp23;
+  public static BuildingModel fighterCamp24;
+  public static BuildingModel fighterCamp25;
+
+  public static BuildingModel shootingRange1;
+  public static BuildingModel shootingRange2;
+  public static BuildingModel shootingRange3;
+  public static BuildingModel shootingRange4;
+  public static BuildingModel shootingRange5;
+  public static BuildingModel shootingRange6;
+  public static BuildingModel shootingRange7;
+  public static BuildingModel shootingRange8;
+  public static BuildingModel shootingRange9;
+  public static BuildingModel shootingRange10;
+  public static BuildingModel shootingRange11;
+  public static BuildingModel shootingRange12;
+  public static BuildingModel shootingRange13;
+  public static BuildingModel shootingRange14;
+  public static BuildingModel shootingRange15;
+  public static BuildingModel shootingRange16;
+  public static BuildingModel shootingRange17;
+  public static BuildingModel shootingRange18;
+  public static BuildingModel shootingRange19;
+  public static BuildingModel shootingRange20;
+  public static BuildingModel shootingRange21;
+  public static BuildingModel shootingRange22;
+  public static BuildingModel shootingRange23;
+  public static BuildingModel shootingRange24;
+  public static BuildingModel shootingRange25;
+
   public static BuildingModel rationTruck1;
   public static BuildingModel rationTruck2;
   public static BuildingModel rationTruck3;
@@ -212,8 +264,6 @@ public class Buildings {
   public static BuildingModel hospital24;
   public static BuildingModel hospital25;
 
-  public static BuildingModel shootingRange13;
-
   public static BuildingModel embassy15;
   public static BuildingModel embassy24;
 
@@ -313,5 +363,61 @@ public class Buildings {
     rationTruck23 = new BuildingModel(BuildingTypes.rationTruck, 23, base23, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
     rationTruck24 = new BuildingModel(BuildingTypes.rationTruck, 24, base24, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
     rationTruck25 = new BuildingModel(BuildingTypes.rationTruck, 25, base25, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+  }
+
+  public static void setFighterCamp() {
+    fighterCamp1 = new BuildingModel(BuildingTypes.fighterCamp, 1, base2, null, null, null, 0, 0, 0, 100, 0, 0, 0, 0);
+    fighterCamp2 = new BuildingModel(BuildingTypes.fighterCamp, 2, base2, null, null, null, 2800, 0, 0, 630, 0, 440, 0, 1100);
+    fighterCamp3 = new BuildingModel(BuildingTypes.fighterCamp, 3, base3, null, null, null, 8500, 0, 0, 1900, 0, 1300, 0, 3800);
+    fighterCamp4 = new BuildingModel(BuildingTypes.fighterCamp, 4, base4, null, null, null, 26000, 0, 0, 5700, 0, 2000, 0, 5700);
+    fighterCamp5 = new BuildingModel(BuildingTypes.fighterCamp, 5, base5, null, null, null, 38000, 0, 0, 8500, 0, 2900, 0, 8500);
+    fighterCamp6 = new BuildingModel(BuildingTypes.fighterCamp, 6, base6, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    fighterCamp7 = new BuildingModel(BuildingTypes.fighterCamp, 7, base7, null, null, null, 43000, 0, 0, 38000, 0, 6600, 0, 20000);
+    fighterCamp8 = new BuildingModel(BuildingTypes.fighterCamp, 8, base8, null, null, null, 60000, 0, 0, 53000, 0, 9900, 0, 35000);
+    fighterCamp9 = new BuildingModel(BuildingTypes.fighterCamp, 9, base9, null, null, null, 84000, 0, 0, 75000, 0, 15000, 0, 62000);
+    fighterCamp10 = new BuildingModel(BuildingTypes.fighterCamp, 10, base10, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    fighterCamp11 = new BuildingModel(BuildingTypes.fighterCamp, 11, base11, null, null, null, 160000, 0, 0, 150000, 0, 33000, 0, 170000);
+    fighterCamp12 = new BuildingModel(BuildingTypes.fighterCamp, 12, base12, null, null, null, 1, 0, 0, 1, 0, 50000, 0, 250000); // TODO: find lumber & food
+    fighterCamp13 = new BuildingModel(BuildingTypes.fighterCamp, 13, base13, null, null, null, 450000 , 0, 0, 400000, 0, 75000, 0, 360000);
+    fighterCamp14 = new BuildingModel(BuildingTypes.fighterCamp, 14, base14, null, null, null, 710000  , 0, 0, 630000, 0, 110000, 0, 500000);
+    fighterCamp15 = new BuildingModel(BuildingTypes.fighterCamp, 15, base15, null, null, null, 1300000, 0, 0, 1100000, 0, 170000, 0, 670000);
+    fighterCamp16 = new BuildingModel(BuildingTypes.fighterCamp, 16, base16, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    fighterCamp17 = new BuildingModel(BuildingTypes.fighterCamp, 17, base17, null, null, null, 6900000, 0, 0, 1500000, 0, 380000, 0, 1500000);
+    fighterCamp18 = new BuildingModel(BuildingTypes.fighterCamp, 18, base18, null, null, null, 12000000, 0, 0, 2700000, 0, 550000, 0, 2600000);
+    fighterCamp19 = new BuildingModel(BuildingTypes.fighterCamp, 19, base19, null, null, null, 21000000, 0, 0, 4700000, 0, 780000, 0, 4600000);
+    fighterCamp20 = new BuildingModel(BuildingTypes.fighterCamp, 20, base20, null, null, null, 35000000, 0, 0, 7900000, 0, 1100000, 0, 7600000);
+    fighterCamp21 = new BuildingModel(BuildingTypes.fighterCamp, 21, base21, null, null, null, 57000000, 0, 0, 13000000, 0, 1500000, 0, 9900000);
+    fighterCamp22 = new BuildingModel(BuildingTypes.fighterCamp, 22, base22, null, null, null, 85000000, 0, 0, 19000000, 0, 1900000, 0, 1200000);
+    fighterCamp23 = new BuildingModel(BuildingTypes.fighterCamp, 23, base23, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    fighterCamp24 = new BuildingModel(BuildingTypes.fighterCamp, 24, base24, null, null, null, 150000000, 0, 0, 33000000, 0, 2700000, 0, 1700000);
+    fighterCamp25 = new BuildingModel(BuildingTypes.fighterCamp, 25, base25, null, null, null, 162000000, 0, 0, 36000000, 0, 2790000, 0, 1800000);
+  }
+
+  public static void setShootingRange() {
+    shootingRange1 = new BuildingModel(BuildingTypes.shootingRange, 1, base1, null, null, null, 220, 0, 0, 0, 200, 150, 0, 0);
+    shootingRange2 = new BuildingModel(BuildingTypes.shootingRange, 2, base2, null, null, null, 1600, 0, 0, 0, 1400, 440, 0, 1100);
+    shootingRange3 = new BuildingModel(BuildingTypes.shootingRange, 3, base3, null, null, null, 2800, 0, 0, 0, 1, 1300, 0, 3800); // TODO: find iron
+    shootingRange4 = new BuildingModel(BuildingTypes.shootingRange, 4, base4, null, null, null, 8500, 0, 0, 0, 13000, 2000, 0, 5700);
+    shootingRange5 = new BuildingModel(BuildingTypes.shootingRange, 5, base5, null, null, null, 13000, 0, 0, 0, 19000, 2900, 0, 8500);
+    shootingRange6 = new BuildingModel(BuildingTypes.shootingRange, 6, base6, null, null, null, 18000, 0, 0, 0, 27000, 4400, 0, 13000);
+    shootingRange7 = new BuildingModel(BuildingTypes.shootingRange, 7, base7, null, null, null, 25000, 0, 0, 0, 38000, 6600, 0, 20000);
+    shootingRange8 = new BuildingModel(BuildingTypes.shootingRange, 8, base8, null, null, null, 35000, 0, 0, 0, 53000, 9900, 0, 35000);
+    shootingRange9 = new BuildingModel(BuildingTypes.shootingRange, 9, base9, null, null, null, 49000, 0, 0, 0, 74000, 15000, 0, 62000);
+    shootingRange10 = new BuildingModel(BuildingTypes.shootingRange, 10, base10, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    shootingRange11 = new BuildingModel(BuildingTypes.shootingRange, 11, base11, null, null, null, 160000, 0, 0, 0, 150000, 32000, 0, 180000);
+    shootingRange12 = new BuildingModel(BuildingTypes.shootingRange, 12, base12, null, null, null, 280000, 0, 0, 0, 250000, 47000, 0, 280000);
+    shootingRange13 = new BuildingModel(BuildingTypes.shootingRange, 13, base13, null, null, null, 450000, 0, 0, 0, 400000, 71000, 0, 390000);
+    shootingRange14 = new BuildingModel(BuildingTypes.shootingRange, 14, base14, null, null, null, 710000, 0, 0, 0, 630000, 110000, 0, 540000);
+    shootingRange15 = new BuildingModel(BuildingTypes.shootingRange, 15, base15, null, null, null, 1300000, 0, 0, 0, 1100000, 160000, 0, 730000);
+    shootingRange16 = new BuildingModel(BuildingTypes.shootingRange, 16, base16, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    shootingRange17 = new BuildingModel(BuildingTypes.shootingRange, 17, base17, null, null, null, 2300000, 0, 0, 0, 3400000, 380000, 0, 1500000);
+    shootingRange18 = new BuildingModel(BuildingTypes.shootingRange, 18, base18, null, null, null, 4000000, 0, 0, 0, 6000000, 550000, 0, 2600000);
+    shootingRange19 = new BuildingModel(BuildingTypes.shootingRange, 19, base19, null, null, null, 7000000, 0, 0, 0, 11000000, 780000, 0, 4600000);
+    shootingRange20 = new BuildingModel(BuildingTypes.shootingRange, 20, base20, null, null, null, 12000000, 0, 0, 0, 18000000, 1100000, 0, 7600000);
+    shootingRange21 = new BuildingModel(BuildingTypes.shootingRange, 21, base21, null, null, null, 19000000, 0, 0, 0, 28000000, 1500000, 0, 9900000);
+    shootingRange22 = new BuildingModel(BuildingTypes.shootingRange, 22, base22, null, null, null, 28000000, 0, 0, 0, 42000000, 1900000, 0, 12000000);
+    shootingRange23 = new BuildingModel(BuildingTypes.shootingRange, 23, base23, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    shootingRange24 = new BuildingModel(BuildingTypes.shootingRange, 24, base24, null, null, null, 50000000, 0, 0, 0, 74000000, 2700000, 0, 17000000);
+    shootingRange25 = new BuildingModel(BuildingTypes.shootingRange, 25, base25, null, null, null, 54000000, 0, 0, 0, 80100000, 2790000, 0, 18000000);
   }
 }

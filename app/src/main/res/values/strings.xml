@@ -97,4 +97,19 @@
     <string name="alarm_turn_off">
         Cancel alarm
     </string>
+
+    <string name="missing_data">
+        Missing data… Line ID: ao_do
+    </string>
+
+    <string name="missing_data_full">
+        Missing data… Please send info to Line ID: ao_do
+    </string>
+
+    <string name="help_msg">
+        This app is in development.
+        If you want to help with this project in any way, please contact me:\n
+        Line ID: ao_do\n
+        Thanks and enjoy!
+    </string>
 </resources>

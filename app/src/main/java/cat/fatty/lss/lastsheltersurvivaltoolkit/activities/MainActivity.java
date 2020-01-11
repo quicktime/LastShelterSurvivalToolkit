@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.ItemL
     arrayList.add(new SelectionModel("Challenges", R.drawable.battle, "#09A9FF", WeekActivity.class));
     arrayList.add(new SelectionModel("Buildings", R.drawable.beer, "#3E51B1", BuildingTypeActivity.class));
     arrayList.add(new SelectionModel("Heroes", R.drawable.ferrari, "#673BB7", HeroNavActivity.class));
-    arrayList.add(new SelectionModel("Item 4", R.drawable.jetpack_joyride, "#4BAA50", WeekActivity.class));
-    arrayList.add(new SelectionModel("Item 5", R.drawable.three_d, "#F94336", WeekActivity.class));
-    arrayList.add(new SelectionModel("Item 6", R.drawable.terraria, "#0A9B88", BuildingTypeActivity.class));
+    arrayList.add(new SelectionModel("Duels", R.drawable.jetpack_joyride, "#4BAA50", HeroNavActivity.class));
+    arrayList.add(new SelectionModel("Doomsday", R.drawable.three_d, "#F94336", HeroNavActivity.class));
+    arrayList.add(new SelectionModel("Guides", R.drawable.terraria, "#0A9B88", HeroNavActivity.class));
 
     MainAdapter adapter = new MainAdapter(this, arrayList, this);
     recyclerView.setAdapter(adapter);

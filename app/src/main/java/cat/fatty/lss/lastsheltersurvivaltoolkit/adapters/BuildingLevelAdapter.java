@@ -20,10 +20,12 @@ public class BuildingLevelAdapter extends RecyclerView.Adapter<BuildingLevelView
 
   private BuildingModel building;
   private int rowLayout;
+  private Context context;
 
   public BuildingLevelAdapter(BuildingModel building, int rowLayout, Context context) {
     this.building = building;
     this.rowLayout = rowLayout;
+    this.context = context;
   }
 
   @NonNull
@@ -37,8 +39,16 @@ public class BuildingLevelAdapter extends RecyclerView.Adapter<BuildingLevelView
   public void onBindViewHolder(@NonNull BuildingLevelViewHolder viewHolder, int position) {
     final ResourceModel resource = building.getReqResources().get(position);
 
-    viewHolder.getResourceAmount().setText(NumberFormat.getNumberInstance(Locale.getDefault()).format(resource.getQuantRequired()));
     viewHolder.getResourceImage().setImageResource(resource.getDrawable());
+
+    String quantRequired;
+    if (resource.getQuantRequired() == 1) {
+      quantRequired = context.getResources().getString(R.string.missing_data);
+    } else {
+      quantRequired = NumberFormat.getNumberInstance(Locale.getDefault()).format(resource.getQuantRequired());
+    }
+
+    viewHolder.getResourceAmount().setText(quantRequired);
     viewHolder.getResourceCheck().setImageResource(R.drawable.checkmark);
   }
 

@@ -31,6 +31,12 @@ public class BuildingManager {
       case "vehicle factory" :
         setBuildingsVehicleFactory();
         break;
+      case "fighter camp" :
+        setBuildingsFighterCamp();
+        break;
+      case "shooting range" :
+        setBuildingsShootingRange();
+        break;
       case "ration truck" :
         setBuildingsRationTruck();
         break;
@@ -115,6 +121,70 @@ public class BuildingManager {
     selectedBuildings.add(Buildings.vehicleFactory23);
     selectedBuildings.add(Buildings.vehicleFactory24);
     selectedBuildings.add(Buildings.vehicleFactory25);
+  }
+
+  private void setBuildingsFighterCamp()
+  {
+    Buildings.setFighterCamp();
+    selectedBuildings = new ArrayList<>();
+
+    selectedBuildings.add(Buildings.fighterCamp1);
+    selectedBuildings.add(Buildings.fighterCamp2);
+    selectedBuildings.add(Buildings.fighterCamp3);
+    selectedBuildings.add(Buildings.fighterCamp4);
+    selectedBuildings.add(Buildings.fighterCamp5);
+    selectedBuildings.add(Buildings.fighterCamp6);
+    selectedBuildings.add(Buildings.fighterCamp7);
+    selectedBuildings.add(Buildings.fighterCamp8);
+    selectedBuildings.add(Buildings.fighterCamp9);
+    selectedBuildings.add(Buildings.fighterCamp10);
+    selectedBuildings.add(Buildings.fighterCamp11);
+    selectedBuildings.add(Buildings.fighterCamp12);
+    selectedBuildings.add(Buildings.fighterCamp13);
+    selectedBuildings.add(Buildings.fighterCamp14);
+    selectedBuildings.add(Buildings.fighterCamp15);
+    selectedBuildings.add(Buildings.fighterCamp16);
+    selectedBuildings.add(Buildings.fighterCamp17);
+    selectedBuildings.add(Buildings.fighterCamp18);
+    selectedBuildings.add(Buildings.fighterCamp19);
+    selectedBuildings.add(Buildings.fighterCamp20);
+    selectedBuildings.add(Buildings.fighterCamp21);
+    selectedBuildings.add(Buildings.fighterCamp22);
+    selectedBuildings.add(Buildings.fighterCamp23);
+    selectedBuildings.add(Buildings.fighterCamp24);
+    selectedBuildings.add(Buildings.fighterCamp25);
+  }
+
+  private void setBuildingsShootingRange()
+  {
+    Buildings.setShootingRange();
+    selectedBuildings = new ArrayList<>();
+
+    selectedBuildings.add(Buildings.shootingRange1);
+    selectedBuildings.add(Buildings.shootingRange2);
+    selectedBuildings.add(Buildings.shootingRange3);
+    selectedBuildings.add(Buildings.shootingRange4);
+    selectedBuildings.add(Buildings.shootingRange5);
+    selectedBuildings.add(Buildings.shootingRange6);
+    selectedBuildings.add(Buildings.shootingRange7);
+    selectedBuildings.add(Buildings.shootingRange8);
+    selectedBuildings.add(Buildings.shootingRange9);
+    selectedBuildings.add(Buildings.shootingRange10);
+    selectedBuildings.add(Buildings.shootingRange11);
+    selectedBuildings.add(Buildings.shootingRange12);
+    selectedBuildings.add(Buildings.shootingRange13);
+    selectedBuildings.add(Buildings.shootingRange14);
+    selectedBuildings.add(Buildings.shootingRange15);
+    selectedBuildings.add(Buildings.shootingRange16);
+    selectedBuildings.add(Buildings.shootingRange17);
+    selectedBuildings.add(Buildings.shootingRange18);
+    selectedBuildings.add(Buildings.shootingRange19);
+    selectedBuildings.add(Buildings.shootingRange20);
+    selectedBuildings.add(Buildings.shootingRange21);
+    selectedBuildings.add(Buildings.shootingRange22);
+    selectedBuildings.add(Buildings.shootingRange23);
+    selectedBuildings.add(Buildings.shootingRange24);
+    selectedBuildings.add(Buildings.shootingRange25);
   }
 
   private void setBuildingsRationTruck()

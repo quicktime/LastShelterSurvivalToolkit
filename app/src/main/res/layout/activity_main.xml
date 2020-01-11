@@ -17,5 +17,18 @@
             android:layout_height="match_parent"
             android:scrollbars="vertical"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <TextView
+            android:id="@+id/help_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:text="@string/help_msg"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp">
+        </TextView>
+
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -51,12 +51,15 @@
             android:layout_height="37.75dp">
         </ImageView>
 
-<!--        <GridView
-            android:id="@+id/resources_grid"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/missing_data_full"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/resource_bg"
-            android:numColumns="1" />-->
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/missing_data_full" >
+        </TextView>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/resources_grid"

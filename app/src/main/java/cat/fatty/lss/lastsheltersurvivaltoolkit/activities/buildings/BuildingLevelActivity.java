@@ -1,6 +1,7 @@
 package cat.fatty.lss.lastsheltersurvivaltoolkit.activities.buildings;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -41,7 +42,14 @@ public class BuildingLevelActivity extends AppCompatActivity {
     
     ImageView requirementsImage = findViewById(R.id.requirements);
     requirementsImage.setImageResource(R.drawable.requirements);
-    
+
+    // TODO: Move this logic to BuildingLevelViewHolder
+    if (building.getSize() <= 0) {
+      findViewById(R.id.missing_data_full).setVisibility(View.VISIBLE);
+    } else {
+      findViewById(R.id.missing_data_full).setVisibility(View.GONE);
+    }
+
     RecyclerView mRecyclerView = findViewById(R.id.resources_grid);
     mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     mRecyclerView.setItemAnimator(new DefaultItemAnimator());
