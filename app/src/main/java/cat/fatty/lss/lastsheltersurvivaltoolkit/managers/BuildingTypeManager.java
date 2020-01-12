@@ -18,6 +18,8 @@ public class BuildingTypeManager {
     buildingTypes.add(BuildingTypes.rationTruck);
     buildingTypes.add(BuildingTypes.shootingRange);
     buildingTypes.add(BuildingTypes.fighterCamp);
+    buildingTypes.add(BuildingTypes.institute);
+    buildingTypes.add(BuildingTypes.embassy);
 
     return buildingTypes;
   }

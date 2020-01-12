@@ -263,9 +263,58 @@ public class Buildings {
   public static BuildingModel hospital23;
   public static BuildingModel hospital24;
   public static BuildingModel hospital25;
-
+  
+  public static BuildingModel institute1;
+  public static BuildingModel institute2;
+  public static BuildingModel institute3;
+  public static BuildingModel institute4;
+  public static BuildingModel institute5;
+  public static BuildingModel institute6;
+  public static BuildingModel institute7;
+  public static BuildingModel institute8;
+  public static BuildingModel institute9;
+  public static BuildingModel institute10;
+  public static BuildingModel institute11;
+  public static BuildingModel institute12;
+  public static BuildingModel institute13;
+  public static BuildingModel institute14;
+  public static BuildingModel institute15;
+  public static BuildingModel institute16;
+  public static BuildingModel institute17;
+  public static BuildingModel institute18;
+  public static BuildingModel institute19;
+  public static BuildingModel institute20;
+  public static BuildingModel institute21;
+  public static BuildingModel institute22;
+  public static BuildingModel institute23;
+  public static BuildingModel institute24;
+  public static BuildingModel institute25;
+  
+  public static BuildingModel embassy1;
+  public static BuildingModel embassy2;
+  public static BuildingModel embassy3;
+  public static BuildingModel embassy4;
+  public static BuildingModel embassy5;
+  public static BuildingModel embassy6;
+  public static BuildingModel embassy7;
+  public static BuildingModel embassy8;
+  public static BuildingModel embassy9;
+  public static BuildingModel embassy10;
+  public static BuildingModel embassy11;
+  public static BuildingModel embassy12;
+  public static BuildingModel embassy13;
+  public static BuildingModel embassy14;
   public static BuildingModel embassy15;
+  public static BuildingModel embassy16;
+  public static BuildingModel embassy17;
+  public static BuildingModel embassy18;
+  public static BuildingModel embassy19;
+  public static BuildingModel embassy20;
+  public static BuildingModel embassy21;
+  public static BuildingModel embassy22;
+  public static BuildingModel embassy23;
   public static BuildingModel embassy24;
+  public static BuildingModel embassy25;
 
   public static BuildingModel farm11;
   public static BuildingModel farm17;
@@ -419,5 +468,61 @@ public class Buildings {
     shootingRange23 = new BuildingModel(BuildingTypes.shootingRange, 23, base23, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
     shootingRange24 = new BuildingModel(BuildingTypes.shootingRange, 24, base24, null, null, null, 50000000, 0, 0, 0, 74000000, 2700000, 0, 17000000);
     shootingRange25 = new BuildingModel(BuildingTypes.shootingRange, 25, base25, null, null, null, 54000000, 0, 0, 0, 80100000, 2790000, 0, 18000000);
+  }
+  
+  public static void setInstitute() {
+    institute1 = new BuildingModel(BuildingTypes.institute, 1, base1, null, null, null, 0, 0, 0, 1700, 0, 150, 0, 700);
+    institute2 = new BuildingModel(BuildingTypes.institute, 2, base2, null, null, null, 0, 0, 0, 5000, 0, 440, 0, 2100);
+    institute3 = new BuildingModel(BuildingTypes.institute, 3, base3, null, null, null, 0, 0, 0, 11000, 0, 980, 0, 5700);
+    institute4 = new BuildingModel(BuildingTypes.institute, 4, base4, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    institute5 = new BuildingModel(BuildingTypes.institute, 5, base5, null, null, null, 0, 0, 0, 51000, 0, 3700, 0, 14000);
+    institute6 = new BuildingModel(BuildingTypes.institute, 6, base6, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    institute7 = new BuildingModel(BuildingTypes.institute, 7, base7, null, null, null, 0, 0, 0, 100000, 0, 8200, 0, 34000);
+    institute8 = new BuildingModel(BuildingTypes.institute, 8, base8, null, null, null, 0, 0, 0, 140000, 0, 12000, 0, 58000);
+    institute9 = new BuildingModel(BuildingTypes.institute, 9, base9, null, null, null, 0, 0, 0, 200000, 0, 18000, 0, 100000);
+    institute10 = new BuildingModel(BuildingTypes.institute, 10, base10, null, null, null, 0, 0, 0, 270000, 0, 28000, 0, 180000);
+    institute11 = new BuildingModel(BuildingTypes.institute, 11, base11, null, null, null, 0, 0, 0, 380000, 0, 1, 0, 280000);
+    institute12 = new BuildingModel(BuildingTypes.institute, 12, base12, null, null, null, 0, 0, 0, 650000, 0, 62000, 0, 420000);
+    institute13 = new BuildingModel(BuildingTypes.institute, 13, base13, null, null, null, 0, 0, 0, 1000000, 0, 93000, 0, 590000);
+    institute14 = new BuildingModel(BuildingTypes.institute, 14, base14, null, null, null, 0, 0, 0, 1700000, 0, 140000, 0, 830000);
+    institute15 = new BuildingModel(BuildingTypes.institute, 15, base15, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    institute16 = new BuildingModel(BuildingTypes.institute, 16, base16, null, null, null, 0, 0, 0, 5200000, 0, 320000, 0, 1600000);
+    institute17 = new BuildingModel(BuildingTypes.institute, 17, base17, null, null, null, 0, 0, 0, 9200000, 0, 470000, 0, 2500000);
+    institute18 = new BuildingModel(BuildingTypes.institute, 18, base18, null, null, null, 0, 0, 0, 16000000, 0, 690000, 0, 4400000);
+    institute19 = new BuildingModel(BuildingTypes.institute, 19, base19, null, null, null, 0, 0, 0, 18400000, 0, 784000, 0, 7700000);
+    institute20 = new BuildingModel(BuildingTypes.institute, 20, base20, null, null, null, 0, 0, 0, 31000000, 0, 1400000, 0, 13000000);
+    institute21 = new BuildingModel(BuildingTypes.institute, 21, base21, null, null, null, 0, 0, 0, 50000000, 0, 1800000, 0, 17000000);
+    institute22 = new BuildingModel(BuildingTypes.institute, 22, base22, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    institute23 = new BuildingModel(BuildingTypes.institute, 23, base23, null, null, null, 0, 0, 0, 100000000, 0, 3000000, 0, 25000000);
+    institute24 = new BuildingModel(BuildingTypes.institute, 24, base24, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    institute25 = new BuildingModel(BuildingTypes.institute, 25, base25, null, null, null, 0, 0, 0, 144000000, 0, 3510000, 0, 30600000);
+  }
+  
+  public static void setEmbassy() {
+    embassy1 = new BuildingModel(BuildingTypes.embassy, 1, base1, null, null, null, 0, 0, 420, 0, 0, 0, 0, 0);
+    embassy2 = new BuildingModel(BuildingTypes.embassy, 2, base2, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy3 = new BuildingModel(BuildingTypes.embassy, 3, base3, null, null, null, 0, 0, 1700, 0, 4100, 0, 0, 2500);
+    embassy4 = new BuildingModel(BuildingTypes.embassy, 4, base4, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy5 = new BuildingModel(BuildingTypes.embassy, 5, base5, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy6 = new BuildingModel(BuildingTypes.embassy, 6, base6, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy7 = new BuildingModel(BuildingTypes.embassy, 7, base7, null, null, null, 0, 0, 7300, 0, 18000, 0, 0, 14000);
+    embassy8 = new BuildingModel(BuildingTypes.embassy, 8, base8, null, null, null, 0, 0, 10000, 0, 25000, 0, 0, 23000);
+    embassy9 = new BuildingModel(BuildingTypes.embassy, 9, base9, null, null, null, 0, 0, 14000, 0, 36000, 0, 0, 42000);
+    embassy10 = new BuildingModel(BuildingTypes.embassy, 10, base10, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy11 = new BuildingModel(BuildingTypes.embassy, 11, base11, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy12 = new BuildingModel(BuildingTypes.embassy, 12, base12, null, null, null, 0, 0, 47000, 0, 120000, 0, 0, 170000);
+    embassy13 = new BuildingModel(BuildingTypes.embassy, 13, base13, null, null, null, 0, 0, 76000, 0, 190000, 0, 0, 240000);
+    embassy14 = new BuildingModel(BuildingTypes.embassy, 14, base14, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy15 = new BuildingModel(BuildingTypes.embassy, 15, base15, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy16 = new BuildingModel(BuildingTypes.embassy, 16, base16, null, null, null, 0, 0, 380000, 0, 950000, 0, 0, 630000);
+    embassy17 = new BuildingModel(BuildingTypes.embassy, 17, base17, null, null, null, 0, 0, 660000, 0, 1700000, 0, 0, 1000000);
+    embassy18 = new BuildingModel(BuildingTypes.embassy, 18, base18, null, null, null, 0, 0, 1200000, 0, 2900000, 0, 0, 1800000);
+    embassy19 = new BuildingModel(BuildingTypes.embassy, 19, base19, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0);
+    embassy20 = new BuildingModel(BuildingTypes.embassy, 20, base20, null, null, null, 0, 0, 3400000, 0, 8500000, 0, 0, 5100000);
+    embassy21 = new BuildingModel(BuildingTypes.embassy, 21, base21, null, null, null, 0, 0, 5500000, 0, 14000000, 0, 0, 66000000);
+    embassy22 = new BuildingModel(BuildingTypes.embassy, 22, base22, null, null, null, 0, 0, 8200000, 0, 20000000, 0, 0, 8300000);
+    embassy23 = new BuildingModel(BuildingTypes.embassy, 23, base23, null, null, null, 0, 0, 11000000, 0, 22000000, 0, 0, 9000000);
+    embassy24 = new BuildingModel(BuildingTypes.embassy, 24, base24, null, null, null, 0, 0, 14000000, 0, 36000000, 0, 0, 12000000);
+    embassy25 = new BuildingModel(BuildingTypes.embassy, 25, base25, null, null, null, 0, 0, 17000000, 0, 43000000, 0, 0, 13000000);
   }
 }

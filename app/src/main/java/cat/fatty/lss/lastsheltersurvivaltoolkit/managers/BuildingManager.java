@@ -55,6 +55,12 @@ public class BuildingManager {
       case "hospital" :
         setBuildingsHospital();
         break;
+      case "institute":
+        setBuildingsInstitute();
+        break;
+      case "embassy":
+        setBuildingsEmbassy();
+        break;
       default :
         // Something wrong happened
         Log.e("BuildingManager switch", "got to default case");
@@ -372,5 +378,67 @@ public class BuildingManager {
     selectedBuildings.add(Buildings.hospital23);
     selectedBuildings.add(Buildings.hospital24);
     selectedBuildings.add(Buildings.hospital25);
+  }
+  
+  private void setBuildingsInstitute() {
+    Buildings.setInstitute();
+    selectedBuildings = new ArrayList<>();
+    
+    selectedBuildings.add(Buildings.institute1);
+    selectedBuildings.add(Buildings.institute2);
+    selectedBuildings.add(Buildings.institute3);
+    selectedBuildings.add(Buildings.institute4);
+    selectedBuildings.add(Buildings.institute5);
+    selectedBuildings.add(Buildings.institute6);
+    selectedBuildings.add(Buildings.institute7);
+    selectedBuildings.add(Buildings.institute8);
+    selectedBuildings.add(Buildings.institute9);
+    selectedBuildings.add(Buildings.institute10);
+    selectedBuildings.add(Buildings.institute11);
+    selectedBuildings.add(Buildings.institute12);
+    selectedBuildings.add(Buildings.institute13);
+    selectedBuildings.add(Buildings.institute14);
+    selectedBuildings.add(Buildings.institute15);
+    selectedBuildings.add(Buildings.institute16);
+    selectedBuildings.add(Buildings.institute17);
+    selectedBuildings.add(Buildings.institute18);
+    selectedBuildings.add(Buildings.institute19);
+    selectedBuildings.add(Buildings.institute20);
+    selectedBuildings.add(Buildings.institute21);
+    selectedBuildings.add(Buildings.institute22);
+    selectedBuildings.add(Buildings.institute23);
+    selectedBuildings.add(Buildings.institute24);
+    selectedBuildings.add(Buildings.institute25);
+  }
+  
+  private void setBuildingsEmbassy() {
+    Buildings.setEmbassy();
+    selectedBuildings = new ArrayList<>();
+    
+    selectedBuildings.add(Buildings.embassy1);
+    selectedBuildings.add(Buildings.embassy2);
+    selectedBuildings.add(Buildings.embassy3);
+    selectedBuildings.add(Buildings.embassy4);
+    selectedBuildings.add(Buildings.embassy5);
+    selectedBuildings.add(Buildings.embassy6);
+    selectedBuildings.add(Buildings.embassy7);
+    selectedBuildings.add(Buildings.embassy8);
+    selectedBuildings.add(Buildings.embassy9);
+    selectedBuildings.add(Buildings.embassy10);
+    selectedBuildings.add(Buildings.embassy11);
+    selectedBuildings.add(Buildings.embassy12);
+    selectedBuildings.add(Buildings.embassy13);
+    selectedBuildings.add(Buildings.embassy14);
+    selectedBuildings.add(Buildings.embassy15);
+    selectedBuildings.add(Buildings.embassy16);
+    selectedBuildings.add(Buildings.embassy17);
+    selectedBuildings.add(Buildings.embassy18);
+    selectedBuildings.add(Buildings.embassy19);
+    selectedBuildings.add(Buildings.embassy20);
+    selectedBuildings.add(Buildings.embassy21);
+    selectedBuildings.add(Buildings.embassy22);
+    selectedBuildings.add(Buildings.embassy23);
+    selectedBuildings.add(Buildings.embassy24);
+    selectedBuildings.add(Buildings.embassy25);
   }
 }
