@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -104,6 +105,13 @@ public class AlarmActivity extends AppCompatActivity implements CompoundButton.O
         calendar.set(Calendar.DAY_OF_WEEK, localDayOfWeek.getValue() + 1); // Have to add 1 day
         calendar.set(Calendar.HOUR_OF_DAY, localHour);
         calendar.set(Calendar.MINUTE, 44);
+  
+        // Calendar sets the DAY_OF_WEEK behind on certain days. Alarm should always be ahead of currentTime.
+        if (calendar.getTimeInMillis() < System.currentTimeMillis()) {
+          calendar.add(Calendar.WEEK_OF_MONTH, 1);
+        }
+  
+        Log.d("AlarmActivity:onClick()", "Alarm set for time: " + calendar.getTime());
   
         pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, alarmIntent, PendingIntent.FLAG_CANCEL_CURRENT);
         

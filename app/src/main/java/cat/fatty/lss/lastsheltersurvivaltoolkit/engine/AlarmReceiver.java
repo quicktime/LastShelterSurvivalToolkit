@@ -18,8 +18,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
   private NotificationManager mNotificationManager;
   private static final int NOTIFICATION_ID = 0;
-  private Intent alarmServiceIntent;
-
+  
   // Notification channel ID.
   private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
 
@@ -27,7 +26,7 @@ public class AlarmReceiver extends BroadcastReceiver {
   public void onReceive(Context context, Intent intent) {
     mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     deliverNotification(context);
-    alarmServiceIntent = new Intent(context, AlarmToneService.class);
+    Intent alarmServiceIntent = new Intent(context, AlarmToneService.class);
   
     boolean ringAlarm = intent.getBooleanExtra("ringAlarm", false);
     Log.d("AlarmReceiver", "ringAlarm is " + ringAlarm);
