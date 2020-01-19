@@ -9,6 +9,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,60 +31,70 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.models.ChallengeModel;
 /**
  * From ChallengeActivity
  */
-public class AlarmActivity extends AppCompatActivity {
-
+public class AlarmActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
+  
   private AlarmManager alarmManager;
+  private Intent alarmIntent;
   private PendingIntent pendingIntent;
   private DayOfWeek localDayOfWeek;
   private int localHour;
   private NotificationManager mNotificationManager;
   private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
   private ChallengeModel intentChallenge;
-
+  
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_alarm);
-
+    
     final String intentDay = getIntent().getStringExtra("day");
     int intentHour = getIntent().getIntExtra("hour", 0);
-
+    
     final ChallengeManager challengeManager = new ChallengeManager(this, intentDay);
     ArrayList<ChallengeModel> challengeList = challengeManager.getManagedChallenges();
     intentChallenge = challengeList.get(intentHour);
-
+    
     final int challengeRequestCode = intentChallenge.getRequestCode();
-
+    
     Clock clock = new Clock(intentDay, intentHour);
     clock.toLocalTime();
     localDayOfWeek = clock.getChallengeLocalDayOfWeek();
     localHour = clock.getChallengeLocalTime();
-
+    
     TextView textView = findViewById(R.id.alarmTimeText);
     String alarmTimeText = String.format(Locale.getDefault(), "%s %d:%d", localDayOfWeek.name(), localHour, 45);
     textView.setText(alarmTimeText);
-
+    
     alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-    final Intent intent = new Intent(this, AlarmReceiver.class);
-
+    
     mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-
+    
     Button alarmStart = findViewById(R.id.alarmStart);
     Button alarmStop = findViewById(R.id.alarmStop);
-
+    Switch ringAlarm = findViewById(R.id.ringAlarm);
+    
     if (intentChallenge.isAlarmSet()) {
       alarmStart.setVisibility(View.INVISIBLE);
       alarmStop.setVisibility(View.VISIBLE);
+      ringAlarm.setVisibility(View.INVISIBLE);
     } else {
       alarmStart.setVisibility(View.VISIBLE);
       alarmStop.setVisibility(View.INVISIBLE);
+      ringAlarm.setVisibility(View.VISIBLE);
     }
-
+    
+    alarmIntent = new Intent(this, AlarmReceiver.class);
+    ringAlarm.setOnCheckedChangeListener(this);
+    if (ringAlarm.isChecked()) {
+      alarmIntent.putExtra("ringAlarm", true);
+    } else {
+      alarmIntent.putExtra("ringAlarm", false);
+    }
+    
     if (intentChallenge.isAlarmSet()) {
-      // TODO: Give each challenge a different requestCode
-      pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+      pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, alarmIntent, PendingIntent.FLAG_CANCEL_CURRENT);
     }
-
+    
     // Start button
     alarmStart.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -92,9 +104,9 @@ public class AlarmActivity extends AppCompatActivity {
         calendar.set(Calendar.DAY_OF_WEEK, localDayOfWeek.getValue() + 1); // Have to add 1 day
         calendar.set(Calendar.HOUR_OF_DAY, localHour);
         calendar.set(Calendar.MINUTE, 44);
-
-        pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, intent, PendingIntent.FLAG_CANCEL_CURRENT);
-
+  
+        pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, alarmIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+        
         alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 7, pendingIntent);
         Toast.makeText(getApplicationContext(), "Alarm set!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(true);
@@ -104,7 +116,7 @@ public class AlarmActivity extends AppCompatActivity {
         startActivity(intent);
       }
     });
-
+    
     // Stop button
     alarmStop.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -119,30 +131,39 @@ public class AlarmActivity extends AppCompatActivity {
         startActivity(intent);
       }
     });
-
+    
     createNotificationChannel();
   }
-
+  
   /**
    * Creates a Notification channel, for OREO and higher.
    */
   public void createNotificationChannel() {
     // Create a notification manager object.
     mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-
+  
     // Notification channels are only available in OREO and higher.
     // So, add a check on SDK version.
     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-
+  
       // Create the NotificationChannel with all the parameters.
       NotificationChannel notificationChannel = new NotificationChannel(PRIMARY_CHANNEL_ID, "LSS Toolkit Notification",
-              NotificationManager.IMPORTANCE_HIGH);
-
+        NotificationManager.IMPORTANCE_HIGH);
+      
       notificationChannel.enableLights(true);
       notificationChannel.setLightColor(Color.RED);
       notificationChannel.enableVibration(true);
       notificationChannel.setDescription("Notifies user when it's time to use a CoZ ticket.");
       mNotificationManager.createNotificationChannel(notificationChannel);
+    }
+  }
+  
+  @Override
+  public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+    if (isChecked) {
+      alarmIntent.putExtra("ringAlarm", true);
+    } else {
+      alarmIntent.putExtra("ringAlarm", false);
     }
   }
 }

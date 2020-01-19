@@ -334,8 +334,8 @@ public class Buildings {
 
   public static void setBase() {
     base2 = new BuildingModel(BuildingTypes.base, 2, rationTruck1, null, null, null, 50, 0, 0, 190, 0, 0, 0, 210);
-    base3 = new BuildingModel(BuildingTypes.base, 3, null, null, null, null, 100, 0, 200, 290, 0, 0, 0, 320);
-    base4 = new BuildingModel(BuildingTypes.base, 4, null, null, null, null, 0, 0, 800, 290, 0, 295, 0, 710);
+    base3 = new BuildingModel(BuildingTypes.base, 3, rationTruck2, null, null, null, 100, 0, 200, 290, 0, 0, 0, 320);
+    base4 = new BuildingModel(BuildingTypes.base, 4, rationTruck3, null, null, null, 0, 0, 800, 290, 0, 295, 0, 710);
     base5 = new BuildingModel(BuildingTypes.base, 5, rationTruck4, null, null, null, 960, 0, 0, 1500, 500, 0, 0, 1100);
     base6 = new BuildingModel(BuildingTypes.base, 6, rationTruck5, bank5, garrison5, null, 1800, 0, 0, 3600, 1300, 0, 0, 3200);
     base7 = new BuildingModel(BuildingTypes.base, 7, rationTruck6, windTurbine6, null, null, 13000, 0, 13000, 25000, 19000, 4900, 0, 8500);

@@ -17,6 +17,8 @@ import cat.fatty.lss.lastsheltersurvivaltoolkit.adapters.MainAdapter;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.layoutManagers.AutoFitGridLayoutManager;
 import cat.fatty.lss.lastsheltersurvivaltoolkit.models.SelectionModel;
 
+import static cat.fatty.lss.lastsheltersurvivaltoolkit.engine.AlarmToneService.ringtone;
+
 public class MainActivity extends AppCompatActivity implements MainAdapter.ItemListener {
 
   RecyclerView recyclerView;
@@ -41,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.ItemL
 
     AutoFitGridLayoutManager layoutManager = new AutoFitGridLayoutManager(this, 500);
     recyclerView.setLayoutManager(layoutManager);
+  
+    if (ringtone != null) {
+      ringtone.stop();
+    }
   }
 
   @Override

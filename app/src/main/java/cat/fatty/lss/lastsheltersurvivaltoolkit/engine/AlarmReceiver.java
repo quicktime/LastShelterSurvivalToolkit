@@ -5,6 +5,9 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.media.RingtoneManager;
+import android.net.Uri;
+import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 
@@ -15,6 +18,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
   private NotificationManager mNotificationManager;
   private static final int NOTIFICATION_ID = 0;
+  private Intent alarmServiceIntent;
 
   // Notification channel ID.
   private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
@@ -23,14 +27,18 @@ public class AlarmReceiver extends BroadcastReceiver {
   public void onReceive(Context context, Intent intent) {
     mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     deliverNotification(context);
-    Intent serviceIntent = new Intent(context, AlarmToneService.class);
-    context.startService(serviceIntent);
+    alarmServiceIntent = new Intent(context, AlarmToneService.class);
+  
+    boolean ringAlarm = intent.getBooleanExtra("ringAlarm", false);
+    Log.d("AlarmReceiver", "ringAlarm is " + ringAlarm);
+    alarmServiceIntent.putExtra("ringAlarm", ringAlarm);
+    context.startService(alarmServiceIntent);
   }
 
   private void deliverNotification(Context context) {
     Intent contentIntent = new Intent(context, MainActivity.class); // Go to MainActivity when user clicks on notification
     PendingIntent contentPendingIntent = PendingIntent.getActivity(context, NOTIFICATION_ID, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-
+  
     NotificationCompat.Builder builder = new NotificationCompat.Builder(context, PRIMARY_CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_alarm_notification_foreground)
             .setContentTitle("LSS Toolkit")

@@ -90,6 +90,10 @@
         Set alarm to ring 15 minutes before the challenge ends.
     </string>
 
+    <string name="alarm_sound">
+        Ring alarm
+    </string>
+
     <string name="alarm_turn_on">
         Set alarm
     </string>
