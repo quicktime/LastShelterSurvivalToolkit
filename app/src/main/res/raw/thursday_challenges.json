@@ -1,6 +1,7 @@
 [
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Recruit / Zombies",
     "difficult": false,
@@ -88,7 +89,8 @@
 	"requestCode": 96
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -128,7 +130,8 @@
 	"requestCode": 97
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Wisdom / Zombies",
     "difficult": false,
@@ -212,7 +215,8 @@
 	"requestCode": 98
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -252,7 +256,8 @@
 	"requestCode": 99
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Recruit / Spend Wisdom",
     "difficult": false,
@@ -280,7 +285,8 @@
 	"requestCode": 100
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -320,7 +326,8 @@
 	"requestCode": 101
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Wisdom / Zombies",
     "difficult": false,
@@ -404,7 +411,8 @@
 	"requestCode": 102
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -444,7 +452,8 @@
 	"requestCode": 103
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Recruit / Zombies",
     "difficult": false,
@@ -532,7 +541,8 @@
 	"requestCode": 104
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -572,7 +582,8 @@
 	"requestCode": 105
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Wisdom / Zombies",
     "difficult": false,
@@ -656,7 +667,8 @@
 	"requestCode": 106
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -696,7 +708,8 @@
 	"requestCode": 107
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Recruit / Spend Wisdom",
     "difficult": false,
@@ -724,7 +737,8 @@
 	"requestCode": 108
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -764,7 +778,8 @@
 	"requestCode": 109
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Wisdom / Zombies",
     "difficult": false,
@@ -848,7 +863,8 @@
 	"requestCode": 110
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -888,7 +904,8 @@
 	"requestCode": 111
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Recruit / Zombies",
     "difficult": false,
@@ -976,7 +993,8 @@
 	"requestCode": 112
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -1016,7 +1034,8 @@
 	"requestCode": 113
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Wisdom / Zombies",
     "difficult": false,
@@ -1100,7 +1119,8 @@
 	"requestCode": 114
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -1140,7 +1160,8 @@
 	"requestCode": 115
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Recruit / Spend Wisdom",
     "difficult": false,
@@ -1168,7 +1189,8 @@
 	"requestCode": 116
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,
@@ -1208,7 +1230,8 @@
 	"requestCode": 117
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Wisdom / Zombies",
     "difficult": false,
@@ -1292,7 +1315,8 @@
 	"requestCode": 118
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All Hero Development",
     "difficult": false,

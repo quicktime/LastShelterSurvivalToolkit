@@ -45,7 +45,7 @@ public class Clock {
     }
     LocalDate gameDate = LocalDate.now().with(dow);
     LocalDate challengeGameDate = LocalDate.of(gameDate.getYear(), gameDate.getMonth(), gameDate.getDayOfMonth());
-    LocalTime challengeGameTime = LocalTime.of(hour, 0);
+    LocalTime challengeGameTime = LocalTime.of(hour, 59);
     ZoneId zoneGame = ZoneId.of("Atlantic/South_Georgia");
     this.challengeGameTime = ZonedDateTime.of(challengeGameDate, challengeGameTime, zoneGame);
   }
@@ -69,10 +69,13 @@ public class Clock {
     return challengeLocalTime.getHour();
   }
 
+  public int getChallengeLocalMinute() {
+    return challengeLocalTime.getMinute() - 14;
+  }
+
   public int getCurrentDay() {
     ZoneId zoneGame = ZoneId.of("Atlantic/South_Georgia");
     LocalDate gameDate = LocalDate.now(zoneGame);
     return gameDate.getDayOfWeek().getValue() - 1;
   }
-
 }

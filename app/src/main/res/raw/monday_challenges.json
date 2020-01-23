@@ -1,6 +1,7 @@
 [
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / Build SU / VIP",
     "difficult": true,
@@ -24,7 +25,8 @@
     "requestCode": 0
   },
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / VIP",
     "difficult": false,
@@ -44,7 +46,8 @@
     "requestCode": 1
   },
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train SU / VIP",
     "difficult": false,
@@ -64,7 +67,8 @@
     "requestCode": 2
   },
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train / Build / VIP",
     "difficult": false,
@@ -88,7 +92,8 @@
     "requestCode": 3
   },
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All 3 Speed Ups",
     "difficult": false,
@@ -112,7 +117,8 @@
 	"requestCode": 4
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / Tech / TrainSU / EC",
     "difficult": false,
@@ -140,7 +146,8 @@
 	"requestCode": 5
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train / Build / Tech / VIP",
     "difficult": false,
@@ -168,7 +175,8 @@
 	"requestCode": 6
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / VIP",
     "difficult": false,
@@ -188,7 +196,8 @@
 	"requestCode": 7
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / Build SU / VIP",
     "difficult": true,
@@ -212,7 +221,8 @@
 	"requestCode": 8
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / VIP",
     "difficult": false,
@@ -232,7 +242,8 @@
 	"requestCode": 9
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train SU / VIP",
     "difficult": false,
@@ -252,7 +263,8 @@
 	"requestCode": 10
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train / Build / VIP",
     "difficult": false,
@@ -276,7 +288,8 @@
 	"requestCode": 11
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All 3 Speed Ups",
     "difficult": false,
@@ -300,7 +313,8 @@
 	"requestCode": 12
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / Tech / TrainSU / EC",
     "difficult": false,
@@ -328,7 +342,8 @@
 	"requestCode": 13
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train / Build / Tech / VIP",
     "difficult": false,
@@ -356,7 +371,8 @@
 	"requestCode": 14
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / VIP",
     "difficult": false,
@@ -376,7 +392,8 @@
 	"requestCode": 15
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / Build SU / VIP",
     "difficult": true,
@@ -400,7 +417,8 @@
 	"requestCode": 16
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / VIP",
     "difficult": false,
@@ -420,7 +438,8 @@
 	"requestCode": 17
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train SU / VIP",
     "difficult": false,
@@ -440,7 +459,8 @@
 	"requestCode": 18
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train / Build / VIP",
     "difficult": false,
@@ -464,7 +484,8 @@
 	"requestCode": 19
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "All 3 Speed Ups",
     "difficult": false,
@@ -488,7 +509,8 @@
 	"requestCode": 20
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / Tech / TrainSU / EC",
     "difficult": false,
@@ -516,7 +538,8 @@
 	"requestCode": 21
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Train / Build / Tech / VIP",
     "difficult": false,
@@ -544,7 +567,8 @@
 	"requestCode": 22
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "color": -1,
     "description": "Build / VIP",
     "difficult": false,

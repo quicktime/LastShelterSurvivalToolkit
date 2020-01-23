@@ -1,6 +1,7 @@
 [
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "Any Speed Up",
@@ -14,7 +15,8 @@
 	"requestCode": 144
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": true,
     "doubleUp": false,
     "description": "Tech / Tech SU",
@@ -32,7 +34,8 @@
 	"requestCode": 145
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "All 3 Speed Ups",
@@ -54,7 +57,8 @@
 	"requestCode": 146
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -72,7 +76,8 @@
 	"requestCode": 147
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -90,7 +95,8 @@
 	"requestCode": 148
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "All 3 Speed Ups",
@@ -112,7 +118,8 @@
 	"requestCode": 149
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech / Train SU / EC",
@@ -138,7 +145,8 @@
 	"requestCode": 150
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -156,7 +164,8 @@
 	"requestCode": 151
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "Any Speed Up",
@@ -170,7 +179,8 @@
 	"requestCode": 152
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": true,
     "doubleUp": false,
     "description": "Tech / Tech SU",
@@ -188,7 +198,8 @@
 	"requestCode": 153
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "All 3 Speed Ups",
@@ -210,7 +221,8 @@
 	"requestCode": 154
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -228,7 +240,8 @@
 	"requestCode": 155
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -246,7 +259,8 @@
 	"requestCode": 156
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "All 3 Speed Ups",
@@ -268,7 +282,8 @@
 	"requestCode": 157
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech / Train SU / EC",
@@ -294,7 +309,8 @@
 	"requestCode": 158
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -312,7 +328,8 @@
 	"requestCode": 159
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "Any Speed Up",
@@ -326,7 +343,8 @@
 	"requestCode": 160
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": true,
     "doubleUp": false,
     "description": "Tech / Tech SU",
@@ -344,7 +362,8 @@
 	"requestCode": 161
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "All 3 Speed Ups",
@@ -366,7 +385,8 @@
 	"requestCode": 162
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -384,7 +404,8 @@
 	"requestCode": 163
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",
@@ -402,7 +423,8 @@
 	"requestCode": 164
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": false,
     "description": "All 3 Speed Ups",
@@ -424,7 +446,8 @@
 	"requestCode": 165
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech / Train SU / EC",
@@ -450,7 +473,8 @@
 	"requestCode": 166
 	},
   {
-    "alarmSet": false,
+    "alarmSet":false,
+	"ringAlarm":false,
     "difficult": false,
     "doubleUp": true,
     "description": "Build / Tech",

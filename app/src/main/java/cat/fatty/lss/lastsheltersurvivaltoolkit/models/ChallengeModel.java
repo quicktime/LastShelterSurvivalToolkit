@@ -16,6 +16,7 @@ public class ChallengeModel implements Serializable {
   private int questNum;
   private int color;
   private boolean alarmSet;
+  private boolean ringAlarm;
   private int requestCode; // don't need to initialize this. GSON will initialize
 
   public ChallengeModel(String description, boolean difficult, boolean doubleUp, QuestModel... quests) {
@@ -33,6 +34,14 @@ public class ChallengeModel implements Serializable {
 
   public boolean isAlarmSet() {
     return alarmSet;
+  }
+
+  public void setRingAlarm(boolean ringAlarm) {
+    this.ringAlarm = ringAlarm;
+  }
+
+  public boolean isRingAlarmSet() {
+    return ringAlarm;
   }
 
   private void setGraphics() {

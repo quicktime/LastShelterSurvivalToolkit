@@ -61,9 +61,10 @@ public class AlarmActivity extends AppCompatActivity implements CompoundButton.O
     clock.toLocalTime();
     localDayOfWeek = clock.getChallengeLocalDayOfWeek();
     localHour = clock.getChallengeLocalTime();
+    int localMinute = clock.getChallengeLocalMinute();
     
     TextView textView = findViewById(R.id.alarmTimeText);
-    String alarmTimeText = String.format(Locale.getDefault(), "%s %d:%d", localDayOfWeek.name(), localHour, 45);
+    String alarmTimeText = String.format(Locale.getDefault(), "%s %d:%d", localDayOfWeek.name(), localHour, localMinute);
     textView.setText(alarmTimeText);
     
     alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
@@ -72,30 +73,37 @@ public class AlarmActivity extends AppCompatActivity implements CompoundButton.O
     
     Button alarmStart = findViewById(R.id.alarmStart);
     Button alarmStop = findViewById(R.id.alarmStop);
-    Switch ringAlarm = findViewById(R.id.ringAlarm);
-    
+    final Switch ringAlarm = findViewById(R.id.ringAlarm);
+
+    boolean isRingAlarmSet = intentChallenge.isRingAlarmSet();
+
     if (intentChallenge.isAlarmSet()) {
       alarmStart.setVisibility(View.INVISIBLE);
       alarmStop.setVisibility(View.VISIBLE);
-      ringAlarm.setVisibility(View.INVISIBLE);
     } else {
       alarmStart.setVisibility(View.VISIBLE);
       alarmStop.setVisibility(View.INVISIBLE);
-      ringAlarm.setVisibility(View.VISIBLE);
     }
-    
+
+    if (isRingAlarmSet) {
+      ringAlarm.setChecked(true);
+    } else {
+      ringAlarm.setChecked(false);
+    }
+
     alarmIntent = new Intent(this, AlarmReceiver.class);
     ringAlarm.setOnCheckedChangeListener(this);
     if (ringAlarm.isChecked()) {
       alarmIntent.putExtra("ringAlarm", true);
+      intentChallenge.setRingAlarm(true);
     } else {
       alarmIntent.putExtra("ringAlarm", false);
+      intentChallenge.setRingAlarm(false);
     }
-    
+
     if (intentChallenge.isAlarmSet()) {
       pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, challengeRequestCode, alarmIntent, PendingIntent.FLAG_CANCEL_CURRENT);
     }
-    
     // Start button
     alarmStart.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -118,6 +126,7 @@ public class AlarmActivity extends AppCompatActivity implements CompoundButton.O
         alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 7, pendingIntent);
         Toast.makeText(getApplicationContext(), "Alarm set!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(true);
+        intentChallenge.setRingAlarm(ringAlarm.isChecked());
         challengeManager.writeToJson(intentDay + "_challenges.json");
         Intent intent = new Intent(AlarmActivity.this, WeekActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -133,6 +142,7 @@ public class AlarmActivity extends AppCompatActivity implements CompoundButton.O
         pendingIntent.cancel();
         Toast.makeText(getApplicationContext(), "Alarm cancelled!", Toast.LENGTH_LONG).show();
         intentChallenge.setAlarm(false);
+        intentChallenge.setRingAlarm(false);
         challengeManager.writeToJson(intentDay + "_challenges.json");
         Intent intent = new Intent(AlarmActivity.this, WeekActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

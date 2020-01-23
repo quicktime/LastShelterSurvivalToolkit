@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.ItemL
     AutoFitGridLayoutManager layoutManager = new AutoFitGridLayoutManager(this, 500);
     recyclerView.setLayoutManager(layoutManager);
 
-//    if (ringtone != null) {
-//      ringtone.stop();
-//    }
+    if (ringtone != null) {
+      ringtone.stop();
+    }
   }
 
   @Override
